@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency_Exchange</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <!--============================== 1.header menu section start here=========================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class=" img-fluid navbar-brand logo" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expand
+                    d="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 mt-4">
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="buy_currency.html">Buy Currency</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu" id="scale"></li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="currency_exchange.html">Currency Exchange</a>
+                        </li>
+                    </ul>
+                    <div class="btn-group mt-4">
+                        <button class="btn btn-primary dropdown-toggle menu_btn" id="defaultDropdown"
+                            data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            <span class="buy_cur">Buy Currency</span>
+                            <i class="fas fa-angle-down" id="arrow-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================ header menu section end here ================================-->
+
+    <!--================================2.curr_exc_hero section start here ===================================-->
+    <section id="curr_exc_hero_section">
+        <div class="container">
+            <div class="row mx-auto justify-content-center">
+                <div class="col-md-7 col-sm-12 curr_exc_hero_back">
+                    <div class="hero_title">
+                        <h3 class="curr_exc_hero_head d-flex text-left">Best Currency Converter in Berwick
+                        </h3>
+                        <p class="curr_exc_hero_para d-flex text-left">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================hero menu section end here================================-->
+
+    <!-- ===================================== 3.Excellent Section  Start =============================-->
+    <div class="excellent_section">
+        <div class="container">
+            <div class="text-center">
+                <img class="exe_logo img-fluid" src="assets/images/excellent/Excellent_logo.png" alt="Excellent_logo">
+            </div>
+            <p class="excellent_top_p_tag">(Check 2000 Reviews)</p>
+            <div class="exe_container d-flex justify-content-center">
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/EUR.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 1.1300 EUR</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/usa.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 0.6554 USD</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/GBP.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 0.5420 GBP</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/THB.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 23.1604 THB</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/NZD.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 1.0479 NZD</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/AED.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 2.3910 AED</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/ARS.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 100.0705 ARS</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/BRL.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 3.2564 BRL</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/EGP.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 13.7713 EGP</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/IND.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 51.2642 INR</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================================Excellent Section  End================================== -->
+
+    <!-- ======================Where is the best place to buy foreign currency start here==========-->
+    <section id="best_place_foreign_curr">
+        <div class="container how_does_long_conatiner">
+            <div class="row best_place_foreign_curr">
+                <h6 class="title">Where is the best place to buy foreign currency?</h6>
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="where_description  ">
+                        <h5 class="where_is_best_place_title">In-store </h5>
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <h5 class="where_is_best_place_title">Buy online </h5>
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <h5 class="where_is_best_place_title">Airports</h5>
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 ">
+                    <div class="where_img">
+                        <img class="img-fluid " src="assets/images/about/amico.png">
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <section id="">
+        <div class="container how_does_long_conatiner">
+            <div class="row ">
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="">
+                        <img class="img-fluid" src="assets/images/about/rafiki.png">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="where_description">
+                        <h5 class="where_sub_title">Exchange in destination</h5>
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <h5 class="where_sub_title">Banks</h5>
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                        <h5 class="where_sub_title">Post Offices</h5>
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos.</p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- ======================Where is the best place to buy foreign currency end here==========-->
+    <!-- ======================What is the cheapest way to buy foreign currency start here==========-->
+    <section id="what_is_cheapest">
+        <div class="container">
+            <div class="row">
+                <h6 class="title">What is the cheapest way to buy foreign currency</h6>
+                <div class="col-md-6 col-sm-12">
+                    <div class="where_description">
+                        <p class="where_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+                            libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                            torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                            condimentum lobortis. Ut commodo efficitur neque.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class
+                            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 mt-4">
+                    <div class="">
+                        <img class="img-fluid " src="assets/images/about/pana.png">
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- ======================What is the cheapest way to buy foreign currency end here==========-->
+
+    <!-- ==================================== Find the cheapest places strat here====================== -->
+    <section id="">
+        <div class="container how_does_long_conatiner">
+            <h6 class="find_cheapest_places_title text-center mt-3">Find the cheapest places buy foreign currency, Just
+                click on the links below</h6>
+            <div class="row  align-items-center mx-auto text-center city_row">
+                <div class="col-md-3 col-sm-6 how_curr_img ">
+                    <img class="img-fluid city_img" src="assets/images/buy_currency/city.png" alt="">
+                    <h3 class="city">Sydney</h3>
+                </div>
+                <div class="col-md-3 col-sm-6 how_curr_img">
+                    <img class="img-fluid city_img" src="assets/images/buy_currency/city2.png" alt="">
+                    <h3 class="city">Adelaide</h3>
+                </div>
+                <div class="col-md-3 col-sm-6 how_curr_img">
+                    <img class="img-fluid city_img" src="assets/images/buy_currency/city3.png" alt="">
+                    <h3 class="city">Brisbane </h3>
+                </div>
+                <div class="col-md-3 col-sm-6 how_curr_img">
+                    <img class="img-fluid city_img" src="assets/images/buy_currency/city4.png" alt="">
+                    <h3 class="city">Perth</h3>
+                </div>
+            </div>
+    </section>
+    <!-- ====================================Find the cheapest placesend here======================== -->
+
+    <!-- ====================================When is the best time to exchange money start here=============-->
+    <section id="best_time_exc_money">
+        <div class="container ">
+            <div class="row best_time_exc_mone_row">
+                <h6 class="when_is_best_time_exc_title ">When is the best time to exchange money?</h6>
+                <div class="col-md-6  col-sm-12 when_best_time_exc_money_img ">
+                    <img class="img-fluid " src="assets/images/about/amico1.png">
+                </div>
+                <div class="col-md-6  col-sm-12 ">
+                    <p class="where_description  ">
+                    <p class="when_best_time_exc_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                        vulputate
+                        libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                        condimentum lobortis. Ut commodo efficitur neque.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.</p>
+                    <p class="when_best_time_exc_para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                        vulputate
+                        libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                        condimentum lobortis. Ut commodo efficitur neque.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.</p>
+                    <p class="when_best_time_exc_para"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                        vulputate
+                        libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                        condimentum lobortis. Ut commodo efficitur neque.Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================When is the best time to exchange money end here======================== -->
+    <!-- ====================================Currency Exchange near me start here======================== -->
+    <section id="curr_exc_near_me">
+        <div class="container how_does_long_conatiner">
+            <div class="row ">
+                <h6 class="title mt-5">Currency Exchange near me</h6>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mx-auto text-left total_link_row">
+                    <ul class="no-bullets ">
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Aberfoyle Park</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Airport West</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Paddington</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Belmont</a>
+                        </li>
+                        <li">
+                            <a class="li_link" href="#" style="text-decoration: none;">Mount Gravatt</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Thomastown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Eastwood</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Alberton</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Bankstown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Waterloo</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">North Melbourne</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Mackay</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mx-auto text-left total_link_row">
+                    <ul class="no-bullets">
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Aberfoyle Park</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Airport West</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Paddington</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Belmont</a>
+                        </li>
+                        <li">
+                            <a class="li_link" href="#" style="text-decoration: none;">Mount Gravatt</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Thomastown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Eastwood</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Alberton</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Bankstown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Waterloo</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">North Melbourne</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Mackay</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mx-auto text-left total_link_row">
+                    <ul class="no-bullets">
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Aberfoyle Park</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Airport West</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Paddington</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Belmont</a>
+                        </li>
+                        <li">
+                            <a class="li_link" href="#" style="text-decoration: none;">Mount Gravatt</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Thomastown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Eastwood</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Alberton</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Bankstown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Waterloo</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">North Melbourne</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Mackay</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mx-auto text-left total_link_row">
+                    <ul class="no-bullets">
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Aberfoyle Park</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Airport West</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Paddington</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Belmont</a>
+                        </li>
+                        <li">
+                            <a class="li_link" href="#" style="text-decoration: none;">Mount Gravatt</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Thomastown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Eastwood</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Alberton</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Bankstown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Waterloo</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">North Melbourne</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Mackay</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mx-auto text-left total_link_row">
+                    <ul class="no-bullets">
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Aberfoyle Park</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Airport West</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Paddington</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Belmont</a>
+                        </li>
+                        <li">
+                            <a class="li_link" href="#" style="text-decoration: none;">Mount Gravatt</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Thomastown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Eastwood</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Alberton</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Bankstown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Waterloo</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">North Melbourne</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Mackay</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mx-auto text-left total_link_row">
+                    <ul class="no-bullets">
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Aberfoyle Park</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Airport West</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Paddington</a>
+                        </li>
+                        <li>
+                            <a class="li_link" href="#" style="text-decoration: none;">Belmont</a>
+                        </li>
+                        <li">
+                            <a class="li_link" href="#" style="text-decoration: none;">Mount Gravatt</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Thomastown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Eastwood</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Alberton</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Bankstown</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Waterloo</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">North Melbourne</a>
+                            </li>
+                            <li>
+                                <a class="li_link" href="#" style="text-decoration: none;">Mackay</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <!-- ====================================Currency Exchange near me end here======================== -->
+    <!--=================================12.Footer section start here============================== -->
+    <footer id="footer-section">
+        <section class="footer">
+            <div class="container">
+                <div class="col-md-2 col-sm-6 footer-logo float-left">
+                    <img src="assets/images/logo.png" alt="DaneshExchange" class="img-fluid">
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-md-4 text-md-left mb-3 footer-menu">
+                        <ul class="list-unstyled text-footer">
+                            <li>
+                                <p class="footer-p">
+                                    Unlike the banks, our focus is only on
+                                    money exchange and money transfers. Our
+                                    store is located in Dandenong
+                                </p>
+                            </li>
+                            <li>
+                                <p class="footer-contact">
+                                    ABN: 33 168 434 133AFS
+                                </p>
+                                <p class="footer-contact">
+                                    Representative License: 1247458
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Quick Links</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="indv_blog.html" class="text">Indv Blog</a>
+                            </li>
+                            <li>
+                                <a href="currency_converter.html" class="text">Currency Converter </a>
+                            </li>
+                            <li>
+                                <a href="city.html" class="text">City</a>
+                            </li>
+                            <li>
+                                <a href="buy_cur_indv.html" class="text">Buy Currency Individual</a>
+                            </li>
+                            <li>
+                                <a href="privacy_policy.html" class="text">Generic Content</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Our Service</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="#!" class="text">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">How It Works </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Exchange Rate</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Buy Currency</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">About Us </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-footer p-3 pt-0">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="mt-3">
+                            <h6 class="copyright">
+                                Copyright © 2022 DaneshExchange.All rights
+                                reserved
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end mt-3">
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--============================================= footer end here========================-->
+    <!-- ===============================================js link here=============================  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/tiny-slider.min.js"></script>
+    <script src="assets/fontawesome/js/all.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/calculator.js"></script>
+</body>
+
+</html>

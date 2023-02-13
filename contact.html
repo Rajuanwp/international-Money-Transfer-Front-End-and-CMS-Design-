@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danesh_Exchange</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+     <!--============================== 1.header menu section start here=========================== -->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class=" img-fluid navbar-brand logo" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expand
+                    d="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 mt-4">
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="buy_currency.html">Buy Currency</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu" id="scale"></li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="currency_exchange.html">Currency Exchange Rate</a>
+                        </li>
+                    </ul>
+                    <div class="btn-group mt-4">
+                        <button class="btn btn-primary dropdown-toggle menu_btn" id="defaultDropdown"
+                            data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            <span class="buy_cur">Buy Currency</span>
+                            <i class="fas fa-angle-down" id="arrow-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================ header menu section end here ================================-->
+
+    <!--================================2.hero section start here ===================================-->
+    <section id="contact_hero_section">
+        <div class="container">
+            <div class="row">
+                <h3 class="contact_head mt-5">Contact Us</h3>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row contact_uss">  
+            <div class="col-md-4 contact_us_div">
+                <div class="card p-3 mb-2 shadow-lg border-0 contact_us_card">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon text-center  text-white pt-1"><i class="fa-solid fa-phone"></i></div>
+                    </div>
+                    <div class="mt-3 text-center card_content">
+                        <p class="heading">Call Us at</p>
+                        <p class="sub_heading">03 8753 7566</p>
+                        <p class="contact_time">(monday to friday 9am to 5:30pm)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 contact_us_div">
+                <div class="card p-3 mb-2 shadow-lg border-0 contact_us_card">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon text-center text-white pt-1"><i class="fa-regular fa-envelope"></i></div>
+                    </div>
+                    <div class="mt-3 text-center card_content">
+                        <p class="heading">Email Us at</p>
+                        <p class="sub_heading">orders@daneshexchange.com.au</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 contact_us_div">
+                <div class="card p-3 mb-2 shadow-lg border-0 contact_us_card">
+                    <div class="d-flex justify-content-center">
+                        <div class="icon text-center  text-white pt-1"><img src="assets/images/contact/location.png" alt="" class="img-fluid"></div>
+                    </div>
+                    <div class="mt-3 text-center card_content">
+                        <p class="heading">Locate Us at</p>
+                        <p class="sub_heading">Shop 19/236 Lonsdale St, Dandenog Vic 3175</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- ====================================hero menu section end here================================-->
+    <!-- ====================================contatc section start here================================-->
+    <section id="contact_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <img src="assets/images/contact/Contact us.png" alt="contact_us" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-7 col-sm-12 contact_form">
+                    <div class="contact_card shadow-lg border-0">
+                        <h4 class="title text-center get_in_touch mb-3"> Get In Touch</h4>
+                        <div class="col-md-12 mb-md-0 mt-2 form_div">
+                            <form id="" name="" action="" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="md-form mb-0  first_name">
+                                            <input type="text" id="f_name" name="f_name" class="form-control contact_form"
+                                                placeholder="First Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <div class="md-form mb-0 last_name">
+                                            <input type="text" id="l_name" name="l_name" class="form-control contact_form"
+                                                placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12  mt-3">
+                                        <div class="md-form mb-0">
+                                            <input type="email" id="email" name="email" class="form-control contact_form"
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 mt-3">
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control contact_form md-textarea" placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 mt-4  mb-4 d-flex justify-content-center ">
+                                        <button class="btn btn-primary submit_btn border-0">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ====================================contatc section end here================================-->
+    <!--=================================12.Footer section start here============================== -->
+    <footer id="footer-section">
+        <section class="footer">
+            <div class="container">
+                <div class="col-md-2 col-sm-6 footer-logo float-left">
+                    <img src="assets/images/logo.png" alt="DaneshExchange" class="img-fluid">
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-md-4 text-md-left mb-3 footer-menu">
+                        <ul class="list-unstyled text-footer">
+                            <li>
+                                <p class="footer-p">
+                                    Unlike the banks, our focus is only on
+                                    money exchange and money transfers. Our
+                                    store is located in Dandenong
+                                </p>
+                            </li>
+                            <li>
+                                <p class="footer-contact">
+                                    ABN: 33 168 434 133AFS
+                                </p>
+                                <p class="footer-contact">
+                                    Representative License: 1247458
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Quick Links</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="indv_blog.html" class="text">Indv Blog</a>
+                            </li>
+                            <li>
+                                <a href="currency_converter.html" class="text">Currency Converter </a>
+                            </li>
+                            <li>
+                                <a href="city.html" class="text">City</a>
+                            </li>
+                            <li>
+                                <a href="buy_cur_indv.html" class="text">Buy Currency Individual</a>
+                            </li>
+                            <li>
+                                <a href="privacy_policy.html" class="text">Generic Content</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Our Service</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="#!" class="text">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">How It Works </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Exchange Rate</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Buy Currency</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">About Us </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-footer p-3 pt-0">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="mt-3">
+                            <h6 class="copyright">
+                                Copyright © 2022 DaneshExchange. All rights
+                                reserved
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end mt-3">
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--============================================= footer end here========================-->
+
+    <!-- ===============================================js link here=============================  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/tiny-slider.min.js"></script>
+    <script src="assets/fontawesome/js/all.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/calculator.js"></script>
+</body>
+</html>

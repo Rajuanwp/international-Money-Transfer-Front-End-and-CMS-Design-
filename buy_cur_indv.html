@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Currency Individual</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <!--============================== 1.header menu section start here=========================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class=" img-fluid navbar-brand logo" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expand
+                    d="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 mt-4">
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="buy_currency.html">Buy Currency</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu" id="scale"></li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="currency_exchange.html">Currency Exchange Rate</a>
+                        </li>
+                    </ul>
+                    <div class="btn-group mt-4">
+                        <button class="btn btn-primary dropdown-toggle menu_btn" id="defaultDropdown"
+                            data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            <span class="buy_cur">Buy Currency</span>
+                            <i class="fas fa-angle-down" id="arrow-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================ header menu section end here ================================-->
+
+    <!--================================2.hero section start here ===================================-->
+    <section id="buy_curr_indv_hero_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="buy_cur_indv_hero_title float-left">
+                        <h3 class="cur_indv_hero">Buy Euros at the Best Exchange Rate
+                        </h3>
+                        <p class="buy_cur_inv_hero_para">Buy Euros with NO commissions or fees in Australia.</p>
+                        <p class="buy_cur_inv_sub_hero_para">Today’s EUR Online Exchange Rate*:</p>
+                    </div>
+                    <div class="py-3 gap-auto">
+                        <button type="button" class=" btn  indv_curr_how_btn ">
+                            <img src="assets/images/buy_currency/btn.png" alt="img" class="img-fluid">
+                            <span class="btn_text">$1 AUD = 0.6324 EUR</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 mt-5 ml-5 mb-5">
+                    <div class="card cal_card">
+                        <div class="card-body">
+                            <div class="mt-4">
+                                <label class="cal_label">You Have </label>
+                                <div class="input-group hero_input mb-3 d-flex justify-content-between col-sm-3">
+                                    <div class="input-group-prepend  aud_field">
+                                        <img src="assets/images/NZD.png" alt="nzl" class="img-fluid  you_have_img px-1">
+                                        <span class="border-0 cal_label">Australian Dollar (AUD)</span>
+                                    </div>
+                                    <input type="text" class="form-control you_have_field" placeholder="1020"
+                                        aria-label="Text input with dropdown">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <label class="cal_label">You Get</label>
+                                <div class="input-group hero_input d-flex justify-content-between">
+                                    <div>
+                                        <select id="cmbIdioma">
+                                            <option value="Spain">Spain</option>
+                                            <option value="United_Kingdom" selected>United Kingdom - Pound (GBP)
+                                            </option>
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Bangladesh">Bangladesh - Taka (BDT)</option>
+                                            <option value="India">India</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="form-control border-0 you_get_field" placeholder="1020"
+                                        aria-label="Text input with dropdown">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <label class="cal_label">Delivery Method</label>
+                                <div class="input-group hero_input mb-3 d-flex justify-content-between" id="delivery">
+                                    <div class="home_delivery">
+                                        <select id="delivery_method" class="form-control home_dl_field">
+                                            <option value="Home delivery" selected>Home delivery </option>
+                                            <option value="delivery">Australia Post Pickup</option>
+                                            <option value="delivery">Parcel Point Pickup</option>
+                                            <option value="delivery">Local store</option>
+                                        </select>
+                                        <span class="hero_arrow"> <i class="fa-sharp fa-solid fa-caret-down"></i></span>
+                                    </div>
+                                    <div class="delivery_amount">
+                                        <span class="cal_label">$14.09</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cal_count ">
+                                <div class="d-flex justify-content-between">
+                                    <span class="total_label">Rate: </span>
+                                    <span class="total_label">0.5394 GBP</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="total_label"> Commissions/fees: </span>
+                                    <span class="total_label">A$0.00</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="total_label">Delivery Date </span>
+                                    <span class="total_label">Expected by November 28</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between pt-3 pb-3">
+                            <h6 class="hero_total"> Total <br> <span class="total_amount">A$ 2017.21</span></h6>
+                            <button class=" cal_btn ">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================hero menu section end here================================-->
+
+    <!-- ===================================== 3.Excellent Section  Start =============================-->
+    <div class="excellent_section">
+        <div class="container">
+            <div class="text-center">
+                <img class="exe_logo img-fluid" src="assets/images/excellent/Excellent_logo.png" alt="Excellent_logo">
+            </div>
+            <p class="excellent_top_p_tag">(Check 2000 Reviews)</p>
+            <div class="exe_container d-flex justify-content-center">
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/EUR.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 1.1300 EUR</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/usa.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 0.6554 USD</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/GBP.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 0.5420 GBP</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/THB.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 23.1604 THB</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/NZD.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 1.0479 NZD</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/AED.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 2.3910 AED</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/ARS.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 100.0705 ARS</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/BRL.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 3.2564 BRL</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/EGP.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 13.7713 EGP</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/IND.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 51.2642 INR</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================================Excellent Section  End================================== -->
+
+    <!-- ============================ 4.How Does Currency Exchange Work? satrt here ===================-->
+    <section id="currency_exchange">
+        <div class="container">
+            <div class="row">
+                <p class="p_title">How Does Currency Exchange Work?</p>
+                <div class="col-md-4">
+                    <div class="order">
+                        <div class="arrow_exchange">
+                            <img class="arrow" src="assets/images/arrow.png" alt="arrow">
+                        </div>
+                        <img class="order_img" src="assets/images/Order.png" alt="arrow">
+                        <h4 class="oder_fr_title">Place Your Order</h4>
+                        <p class="p_currency">
+                            Choose between secure home delivery or local
+                            click & collect.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="order">
+                        <div class="arrow_exchange">
+                            <img class="arrow" src="assets/images/arrow.png" alt="arrow">
+                        </div>
+                        <img class="order_img" src="assets/images/transfer.png" alt="arrow">
+                        <h4 class="oder_fr_title">Pay by bank transfer</h4>
+                        <p class="p_currency">
+                            You'll receive an email with instructions on how to pay
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="order">
+                        <img class="order_img" src="assets/images/currency.png" alt="arrow">
+                        <h4 class="oder_fr_title">Get your currency</h4>
+                        <p class="p_currency">
+                            You must show your photo I.D. If you aren't
+                            home, it will be sent to your local post office.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================How Does Currency Exchange Work?  end ==================== -->
+
+    <!-- ========================= 5.How Long does it Takes satrt==================================== -->
+    <section id="how_does_long_does_it_takes">
+        <h6 class="how_does_long_title">How Long does it Takes?</h6>
+        <div class="container how_does_long_conatiner">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="how_left">
+                        <img class="img-fluid how_long_img" src="assets/images/how_dose_long.png" alt="arrow">
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 col-12">
+                    <div class="how_right">
+                        <p class="how_right_p">
+                            Buy foreign currency online without any fees
+                            or commissions and pick up from 3000+
+                            Australia post stores or have it delivered
+                            right to your door within 2-3 business days.
+                        </p>
+                        <div class="how_long_right_card">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/Group_231.png" alt="arrow">
+                            </div>
+                            <div>
+                                <p class="how_card_title">Confirm</p>
+                                <p class="how_card_para">
+                                    You'll receive a text and email
+                                    confirming we've received your
+                                    payment
+                                </p>
+                            </div>
+                        </div>
+                        <div class="how_long_right_card">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/carbon_delivery-add.svg" alt="arrow">
+                            </div>
+                            <div>
+                                <p class="how_card_title">Delivery</p>
+                                <p class="how_card_para">
+                                    Once your payment is confirmed,
+                                    delivery takes 2 3 business days
+                                </p>
+                            </div>
+                        </div>
+                        <div class="how_long_right_card">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/Group_231.png" alt="arrow">
+                            </div>
+                            <div>
+                                <p class="how_card_title">Updates</p>
+                                <p class="how_card_para">
+                                    You'll receive updates on when your
+                                    order is coming or in case there is
+                                    unexpected delay
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================How Long does it Takes?  end======================= -->
+    <!-- ============================buy currency start here======================= -->
+    <section id="by_foreign_curr_best_exc_retes">
+        <h6 class="by_foreign_title">Buy Currency</h6>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="buy_foreign_right">
+                        <p class="what_make_p">Buy foreign currency online without any fees or commissions and
+                            pick up from 3000+ Australia post stores or have it delivered right
+                            to your door within 2 3 business days.</p>
+                        <p class="what_make_p"> Danesh Exchange is a world class money exchanger serving people
+                            Australia
+                            wide for more than one decade. Whether you need to need on spot money
+                            exchanging services for your foreign tours, Danesh Exchange is the place to be
+                            since 2009.</p>
+                        <p class="what_make_p"> Danesh Exchange also provides live updated exchange rates for any
+                            currency
+                            that you need. Our live exchange rates eliminate the chance of you getting
+                            lower rates than you deserve. Our well trained staff members offer quick and
+                            friendly service where you don t even have to pay any additional commission
+                            on your transactions. Highest cash exchange rates along with quick services
+                            are our forte and we aim to bring in many updated versions of money
+                            exchanging keeping up to date with the modern world that we are in.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="what_makes_left">
+                        <img class="img-fluid" src="assets/images/Buy_Currency/buy_fore_curr.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================buy currency end here======================= -->
+    <!-- ============================Know your Currency start here======================= -->
+    <section id="know_your_currency">
+        <div class="conatiner">
+            <h4 class="by_foreign_title">Know your Currency</h4>
+            <div class="row mx-auto text-center">
+                <div class="offset-md-4 col-md-6   col-sm-12 offset-sm-0  know_curr_div">
+                    <div class="card shadow-lg know_curr_card">
+                        <div class="col-md-8 col-sm-6   d-flex justify-content-between know_top_head">
+                            <img src="assets/images/buy_currency/china.png" alt="china" class="img-fluid china_img">
+                            <h1 class="china_head">CHINA</h1>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-between">
+                            <div class="col-md-6 col-sm-6  blue_div" style="background-color: #02A6EB;">
+                                <div class="">
+                                    <p class="know_head ">Official Currencies</p>
+                                    <ul class="bullets">
+                                        <li class="bullet_ltext">Currency Code </li>
+                                        <li class="bullet_ltext">Currency Symbol</li>
+                                        <li class="bullet_ltext">Smallest Banknote</li>
+                                        <li class="bullet_ltext">Largest Bank Notes</li>
+                                        <li class="bullet_ltext">Cash Available to Purchase</li>
+                                        <li class="bullet_ltext">Current Rate</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6   ">
+                                <p class="cny_head d-flex text-left  px-1">Chinese Yuan (CNY),
+                                    The people's renminbi (RMB)</p>
+                                <ul class="bullets_right">
+                                    <li class=" right_item">CHY </li>
+                                    <li class=" right_item">¥ </li>
+                                    <li class=" right_item">10 </li>
+                                    <li class=" right_item">1000 </li>
+                                    <li class=" right_item">Yes </li>
+                                    <li class=" right_item">4.8335 </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================Know your Currency end here======================= -->
+    <!--=============================== 7.Why Choose Us start here=================================  -->
+    <section id="why_choose_us">
+        <div class="container">
+            <h2 class="title mb-5">Why Choose Us </h2>
+            <div class="row">
+                <div class="col-md-5  choose_left_content">
+                    <div class="left-side">
+                        <img src="assets/images/why_choose_us/Vector 5-1.png" alt="why-chose-img"
+                            class="img-fluid why_chose_img">
+                        <div class="content_left">
+                            <h6 class="why-choose-head">AUSTRALIAN OWNED & OPERATED </h6>
+                            <p class="why-choose-p">ASIC Regulated with more than 10 Years of experience</p>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <img src="assets/images/why_choose_us/Vector 5-2.png" alt="why-chose-img"
+                            class="img-fluid why_chose_img">
+                        <div class="content_left">
+                            <h6 class="why-choose-head">WIDE RANGE OF CURRENCIES </h6>
+                            <p class="why-choose-p">Over 60 currencies to choose from.</p>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <img src="assets/images/why_choose_us/Vector 5-3.png" alt="why-chose-img"
+                            class="img-fluid why_chose_img">
+                        <div class="content_left">
+                            <h6 class="why-choose-head">AUSTRALIA WIDE DELIVERY </h6>
+                            <p class="why-choose-p">Secure home delivery. Straight to your front door</p>
+                        </div>
+                    </div>
+                    <div class="left-side">
+                        <img src="assets/images/why_choose_us/Vector 5.png" alt="why-chose-img"
+                            class="img-fluid why_chose_img">
+                        <div class="content_left">
+                            <h6 class="why-choose-head">AUSTRALIA POST PICK UP</h6>
+                            <p class="why-choose-p">Pick up your foreign cash from your local post office.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5  choose_right_content">
+                    <div class="right_side">
+                        <img src="assets/images/why_choose_us/Vector 3.png" alt="why-chose-img"
+                            class="img-fluid right_img">
+                        <div class="content_right">
+                            <h6 class="why-choose-head">ITS ULTIMATE CONVENIENCE</h6>
+                            <p class="why-choose-p">It's simple, super fast and convenient.<br>
+                                No need to travel long distances.</p>
+                        </div>
+                    </div>
+                    <div class="right_side mx-auto">
+                        <img src="assets/images/why_choose_us/Vector 8.png" alt="why-chose-img"
+                            class="img-fluid right_img">
+                        <div class="content_right mb-4">
+                            <h6 class="why-choose-head">BEST EXCHANGE RATES</h6>
+                            <p class="why-choose-p">We won t be beaten on prices. We <br>
+                                give the best rates in Australia.</p>
+                        </div>
+                    </div>
+                    <div class="right_side">
+                        <img src="assets/images/why_choose_us/Vector 10.png" alt="why-chose-img"
+                            class="img-fluid right_img">
+                        <div class="content_right">
+                            <h6 class="why-choose-head">NO COMMISSION </h6>
+                            <p class="why-choose-p">Our money exchange service is FREE. No <br>
+                                commission or fees while converting
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/images/why_choose_us/Currency-amico (1) 1.png" alt="why-chose-img"
+            class="img-fluid why-chose-img">
+    </section>
+    <!--============================== Why Choose Us end here ===================================== -->
+    <!--=============================== 7.Why Choose Us start here=================================  -->
+    <section id="why_choose_us_accordion">
+        <div class="container">
+            <h2 class="title mb-5">Why Choose Us </h2>
+            <div class="row why_choose_row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button why-choose-head" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    AUSTRALIAN OWNED & OPERATED
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">ASIC Regulated with more than 10 Years of experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button why-choose-head collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    WIDE RANGE OF CURRENCIES
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">Over 60 currencies to choose from.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button why-choose-head collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    AUSTRALIA WIDE DELIVERY
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">Secure home delivery. Straight to your front door</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button why-choose-head collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                    AUSTRALIA POST PICK UP
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">Pick up your foreign cash from your local post office</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                <button class="accordion-button why-choose-head collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                    ITS ULTIMATE CONVENIENCE
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFive">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">It's simple, super fast and convenient.
+                                        No need to travel long distances</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                <button class="accordion-button why-choose-head collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                    BEST EXCHANGE RATES
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingSix">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">We won t be beaten on prices. We
+                                        give the best rates in Australia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                <button class="accordion-button why-choose-head collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                                    NO COMMISSION
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingSeven">
+                                <div class="accordion-body">
+                                    <p class="why-choose-p">Our money exchange service is FREE. No
+                                        commission or fees while converting</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--============================== Why Choose Us end here ===================================== -->
+
+    <!-- ================================10.top rated currency exchange strat here=================== -->
+    <section id="buy_curr_indv_top_rat_cur_exc">
+        <div class="container">
+            <div class="top_rated">
+                <p class="top_rate_title">Top Rated Currency Exchange</p>
+                <div class="top_rate_p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio
+                    mattis. Class aptent taciti sociosqu ad litora torquent
+                    per conubia nostra, per inceptos himenaeos. Curabitur
+                    tempus urna at turpis condimentum lobortis.
+                </div>
+            </div>
+            <div class="top_container">
+                <div class="top_item ">
+                    <img class="top_item_img" src="assets/images/top_rated/trust.png" alt="">
+                </div>
+                <div class="top_item ">
+                    <img class="product_item_img" src="assets/images/top_rated/product.png" alt="">
+                </div>
+                <div class="top_item ">
+                    <img class="top_item_img" src="assets/images/top_rated/facebook.png" alt="">
+                </div>
+                <div class="top_item ">
+                    <img class="google_item_img" src="assets/images/top_rated/google.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================ Top Rated Currency Exchange end here=========================-->
+    
+    <!--=================================12.Footer section start here============================== -->
+    <footer id="footer-section">
+        <section class="footer">
+            <div class="container">
+                <div class="col-md-2 col-sm-6 footer-logo float-left">
+                    <img src="assets/images/logo.png" alt="DaneshExchange" class="img-fluid">
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-md-4 text-md-left mb-3 footer-menu">
+                        <ul class="list-unstyled text-footer">
+                            <li>
+                                <p class="footer-p">
+                                    Unlike the banks, our focus is only on
+                                    money exchange and money transfers. Our
+                                    store is located in Dandenong
+                                </p>
+                            </li>
+                            <li>
+                                <p class="footer-contact">
+                                    ABN: 33 168 434 133AFS
+                                </p>
+                                <p class="footer-contact">
+                                    Representative License: 1247458
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Quick Links</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="indv_blog.html" class="text">Indv Blog</a>
+                            </li>
+                            <li>
+                                <a href="currency_converter.html" class="text">Currency Converter </a>
+                            </li>
+                            <li>
+                                <a href="city.html" class="text">City</a>
+                            </li>
+                            <li>
+                                <a href="buy_cur_indv.html" class="text">Buy Currency Individual</a>
+                            </li>
+                            <li>
+                                <a href="privacy_policy.html" class="text">Generic Content</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Our Service</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="#!" class="text">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">How It Works </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Exchange Rate</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Buy Currency</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">About Us </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-footer p-3 pt-0">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="mt-3">
+                            <h6 class="copyright">
+                                Copyright © 2022 DaneshExchange. All rights
+                                reserved
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end mt-3">
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--============================================= footer end here========================-->
+
+    <!-- ===============================================js link here=============================  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/tiny-slider.min.js"></script>
+    <script src="assets/fontawesome/js/all.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/calculator.js"></script>
+</body>
+
+</html>

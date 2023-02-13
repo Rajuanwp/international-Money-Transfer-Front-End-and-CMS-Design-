@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy_Currency_page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+     <!--============================== 1.header menu section start here=========================== -->
+     <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class=" img-fluid navbar-brand logo" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expand
+                    d="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-lg-0 mt-4">
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="buy_currency.html">Buy Currency</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item navbar-menu" id="scale"></li>
+                        <li class="nav-item navbar-menu">
+                            <a class="" href="currency_exchange.html">Currency_Exchange</a>
+                        </li>
+                    </ul>
+                    <div class="btn-group mt-4">
+                        <button class="btn btn-primary dropdown-toggle menu_btn" id="defaultDropdown"
+                            data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                            <span class="buy_cur">Buy Currency</span>
+                            <i class="fas fa-angle-down" id="arrow-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Menu item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--================================ header menu section end here ================================-->
+    <!--================================2.buy currency hero section start here ==============================-->
+    <section id="buy_curr_hero_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="hero_title float-left">
+                        <h3 class="buy_curr_hero_head">Buy Foreign Currency Online Best Rates
+                        </h3>
+                        <h4 class="buy_curr_sub_hero">Collect your order from your nearest Post Office
+                        </h4>
+                        <p class="buy_curr_hero_para">Purchase online to lock in our highest exchange rates. Collect from over 3000+ Australia Post store or have it delivered to your home.
+                        </p>
+                    </div>
+                    <div class="buy_curr_hero_btn">
+                        <button type="button" class="btn curr_how_btn">
+                            <span class="px-4 py-2">Home Delivery</span>
+                        </button>
+                        <button type="button" class="btn curr_how_btn">
+                            <span class="px-4 py-2"> Australia Post</span>
+                        </button>
+                        <button type="button" class="btn curr_how_btn">
+                            <span class="px-4 py-2">Local Store</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 mt-5 ml-5 mb-5">
+                    <div class="card cal_card">
+                        <div class="card-body">
+                            <div class="mt-4">
+                                <label class="cal_label">You Have </label>
+                                <div class="input-group hero_input mb-3 d-flex justify-content-between col-sm-3">
+                                    <div class="input-group-prepend  aud_field">
+                                        <img src="assets/images/NZD.png" alt="nzl" class="img-fluid  you_have_img px-1">
+                                        <span class="border-0 cal_label">Australian Dollar (AUD)</span>
+                                    </div>
+                                    <input type="text" class="form-control you_have_field" placeholder="1020"
+                                        aria-label="Text input with dropdown">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <label class="cal_label">You Get</label>
+                                <div class="input-group hero_input d-flex justify-content-between">
+                                    <div>
+                                        <select id="cmbIdioma">
+                                            <option value="Spain">Spain</option>
+                                            <option value="United_Kingdom" selected>United Kingdom - Pound (GBP)
+                                            </option>
+                                            <option value="Argentina">Argentina</option>
+                                            <option value="Bangladesh">Bangladesh - Taka (BDT)</option>
+                                            <option value="India">India</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="form-control border-0 you_get_field" placeholder="1020"
+                                        aria-label="Text input with dropdown">
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <label class="cal_label">Delivery Method</label>
+                                <div class="input-group hero_input mb-3 d-flex justify-content-between" id="delivery">
+                                    <div class="home_delivery">
+                                        <select id="delivery_method" class="form-control home_dl_field">
+                                            <option value="Home delivery" selected>Home delivery </option>
+                                            <option value="delivery">Australia Post Pickup</option>
+                                            <option value="delivery">Parcel Point Pickup</option>
+                                            <option value="delivery">Local store</option>
+                                        </select>
+                                       <span class="hero_arrow"> <i class="fa-sharp fa-solid fa-caret-down"></i></span>
+                                    </div>
+                                    <div class="delivery_amount">
+                                        <span class="cal_label">$14.09</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cal_count ">
+                                <div class="d-flex justify-content-between">
+                                    <span class="total_label">Rate: </span>
+                                    <span class="total_label">0.5394 GBP</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="total_label"> Commissions/fees: </span>
+                                    <span class="total_label">A$0.00</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span class="total_label">Delivery Date </span>
+                                    <span class="total_label">Expected by November 28</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between pt-3 pb-3">
+                            <h6 class="hero_total"> Total <br> <span class="total_amount">A$ 2017.21</span></h6>
+                            <button class="cal_btn ">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+      <!--================================buy currency hero section end here================================-->
+
+    <!-- ===================================== 3.Excellent Section  Start =============================-->
+    <div class="excellent_section">
+        <div class="container">
+            <div class="text-center">
+                <img class="exe_logo img-fluid" src="assets/images/excellent/Excellent_logo.png" alt="Excellent_logo">
+            </div>
+            <p class="excellent_top_p_tag">(Check 2000 Reviews)</p>
+            <div class="exe_container d-flex justify-content-center">
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/EUR.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 1.1300 EUR</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/usa.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 0.6554 USD</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/GBP.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 0.5420 GBP</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/THB.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 23.1604 THB</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/NZD.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 1.0479 NZD</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/AED.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 2.3910 AED</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/ARS.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 100.0705 ARS</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/BRL.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 3.2564 BRL</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/EGP.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 13.7713 EGP</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+                <div class="excelent_item">
+                    <img src="assets/images/excellent/IND.png" alt="Card_image_cap">
+                    <p class="lead card_title">1 AUD = 51.2642 INR</p>
+                    <a class="buy_button" href="#">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====================================Excellent Section  End================================== -->
+
+    <!-- ============================ 4.How Does Currency Exchange Work? satrt here ===================-->
+    <section id="currency_exchange">
+        <div class="container">
+            <div class="row">
+                <p class="p_title">How Does Currency Exchange Work?</p>
+                <div class="col-md-4">
+                    <div class="order">
+                        <div class="arrow_exchange">
+                            <img class="arrow" src="assets/images/arrow.png" alt="arrow">
+                        </div>
+                        <img class="order_img" src="assets/images/Order.png" alt="arrow">
+                        <h4 class="oder_fr_title">Place Your Order</h4>
+                        <p class="p_currency">
+                            Choose between secure home delivery or local
+                            click & collect.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="order">
+                        <div class="arrow_exchange">
+                            <img class="arrow" src="assets/images/arrow.png" alt="arrow">
+                        </div>
+                        <img class="order_img" src="assets/images/transfer.png" alt="arrow">
+                        <h4 class="oder_fr_title">Pay by bank transfer</h4>
+                        <p class="p_currency">
+                            You'll receive an email with instructions on how to pay
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="order">
+                        <img class="order_img" src="assets/images/currency.png" alt="arrow">
+                        <h4 class="oder_fr_title">Get your currency</h4>
+                        <p class="p_currency">
+                            You must show your photo I.D. If you aren't
+                            home, it will be sent to your local post office.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================How Does Currency Exchange Work?  end ==================== -->
+
+    <!-- ==================================== 5.What makes us Different start here======================= -->
+    <section id="what_makes_us_diff">
+    
+        <div class="container">
+            
+            <div class="row">
+                <h6 class="title">What makes us Different?</h6>
+                <div class="col-md-5 col-sm-12 col-12">
+                    <div class="what_makes_right">
+                        <div class="what_makes_us_right">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/buy_currency/1st.svg" alt="arrow" />
+                            </div>
+                            <div>
+                                <p class="what_makes_us_title">No Commissions Or Service Fees</p>
+                                <p class="how_card_para">
+                                    You'll receive a text and email confirming we've
+                                    received your payment
+                                </p>
+                            </div>
+                        </div>
+                        <div class="what_makes_us_right">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/buy_currency/2nd.svg" alt="arrow" />
+                            </div>
+                            <div>
+                                <p class="what_makes_us_title">Best Exchange Rates</p>
+                                <p class="how_card_para">
+                                    Once your payment is confirmed, delivery takes 2 3 business days
+                                </p>
+                            </div>
+                        </div>
+                        <div class="what_makes_us_right">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/buy_currency/3rd.svg" alt="arrow" />
+                            </div>
+                            <div>
+                                <p class="what_makes_us_title">Australian owned & operated</p>
+                                <p class="how_card_para">
+                                    You'll receive updates on when your order is coming or in case there is unexpected
+                                    delay
+                                </p>
+                            </div>
+                        </div>
+                        <div class="what_makes_us_right">
+                            <div>
+                                <img class="confiram_icon" src="assets/images/buy_currency/4th.svg" alt="arrow" />
+                            </div>
+                            <div>
+                                <p class="what_makes_us_title">Convenient service</p>
+                                <p class="how_card_para">
+                                    You'll receive updates on when your order is
+                                    coming or in case there is unexpected delay
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12 px-5">
+                    <div class="what_makes_left">
+                        <img class="img-fluid " src="assets/images/Buy_Currency/amico.png" alt="arrow" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================What makes us Different end here======================== -->
+
+    <!-- ===========================   6.Buy foreign currency at the best exchange rates start here=============== -->
+    <section id="by_foreign_curr_best_exc_retes">
+        <h6 class="by_foreign_title">Buy foreign currency at the best exchange rates</h6>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="what_makes_left">
+                        <img class="img-fluid" src="assets/images/Buy_Currency/buy_fore_curr.png">
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 ">
+                    <div class="buy_foreign_right">
+                        <p class="what_make_p">Buy foreign currency online without any fees or commissions and
+                            pick up from 3000+ Australia post stores or have it delivered right
+                            to your door within 2 3 business days.</p>
+                        <p class="what_make_p"> Danesh Exchange is a world class money exchanger serving people
+                            Australia
+                            wide for more than one decade. Whether you need to need on spot money
+                            exchanging services for your foreign tours, Danesh Exchange is the place to be
+                            since 2009.</p>
+                        <p class="what_make_p"> Danesh Exchange also provides live updated exchange rates for any
+                            currency
+                            that you need. Our live exchange rates eliminate the chance of you getting
+                            lower rates than you deserve. Our well trained staff members offer quick and
+                            friendly service where you don t even have to pay any additional commission
+                            on your transactions. Highest cash exchange rates along with quick services
+                            are our forte and we aim to bring in many updated versions of money
+                            exchanging keeping up to date with the modern world that we are in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====================================Buy foreign currency at the best exchange rates end here======================== -->
+
+    <!-- ====================================   7.how to buy foreign currency in Australia====================== -->
+    <section id="how_to_buy_cur_in_aus">  
+        <div class="container how_does_long_conatiner">
+            <h6 class="title">How to buy foreign currency in Australia</h6>
+            <div class="row ">
+                <div class="col-md-5 col-sm-12 ">
+                    <div class="how_right">
+                        <p class="what_make_p">Buy foreign currency online without any fees or commissions and
+                            pick up from 3000+ Australia post stores or have it delivered right
+                            to your door within 2 3 business days.</p>
+                        <p class="what_make_p"> Danesh Exchange is a world class money exchanger serving people
+                            Australia
+                            wide for more than one decade. Whether you need to need on spot money
+                            exchanging services for your foreign tours, Danesh Exchange is the place to be
+                            since 2009.</p>
+                        <p class="what_make_p"> Danesh Exchange also provides live updated exchange rates for any
+                            currency
+                            that you need. Our live exchange rates eliminate the chance of you getting
+                            lower rates than you deserve. Our well trained staff members offer quick and
+                            friendly service where you don t even have to pay any additional commission
+                            on your transactions. Highest cash exchange rates along with quick services
+                            are our forte and we aim to bring in many updated versions of money
+                            exchanging keeping up to date with the modern world that we are in.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="what_makes_left">
+                        <img class="img-fluid" src="assets/images/Buy_Currency/how_cur_aus.png">
+                    </div>
+                </div>
+                <div class="row how_curr_row align-items-center mx-auto text-center">
+                    <div class="col-md-3 col-sm-6 how_curr_img ">
+                        <img class="img-fluid city_img" src="assets/images/buy_currency/city.png" alt="">
+                            <h3 class="city">Sydney</h3>
+                        </div>
+                    <div class="col-md-3 col-sm-6 how_curr_img">
+                        <img class="img-fluid city_img" src="assets/images/buy_currency/city2.png" alt="">
+                            <h3 class="city">Adelaide</h3>
+                        </div>
+                    <div class="col-md-3 col-sm-6 how_curr_img">
+                        <img class="img-fluid city_img" src="assets/images/buy_currency/city3.png" alt="">
+                            <h3 class="city">Brisbane </h3>
+                        </div>
+                    <div class="col-md-3 col-sm-6 how_curr_img">
+                        <img class="img-fluid city_img" src="assets/images/buy_currency/city4.png" alt="">
+                            <h3 class="city">Perth</h3>
+                        </div>
+                </div>
+            </div>
+    </section>
+    <!-- ====================================how to buy foreign currency in Australia end here======================== -->
+
+    <!-- =================================8.Currency We Deal With  Start============================ -->
+    <section id="currency_we_deal_with">
+        <div class="container">
+            <h6 class="we_deal_title">Currency We Deal With</h6>
+            <ul class="nav_pill nav nav-pills d-flex justify-content-center">
+                <li class="nav-item nav-item currency_we_deal_item">
+                    <a class="nav_btn_cw nav-link active" data-bs-toggle="pill" aria-current="page"href="#Asia">Asia</a>
+                </li>
+                <li class="nav-item nav-item currency_we_deal_item">
+                    <a class="nav_btn_cw nav-link" data-bs-toggle="pill" href="#Oceania_thePacific">Oceania & thePacific</a>
+                </li>
+                <li class="nav-item nav-item currency_we_deal_item">
+                    <a class="nav_btn_cw nav-link" data-bs-toggle="pill" href="#Europe">Europe</a>
+                </li>
+                <li class="nav-item nav-item currency_we_deal_item">
+                    <a class="nav_btn_cw nav-link" data-bs-toggle="pill" href="#North_South_America">North & South
+                        America</a>
+                </li>
+                <li class="nav-item nav-item currency_we_deal_item">
+                    <a class="nav_btn_cw nav-link" data-bs-toggle="pill" href="#Africa_Middle_East">Africa & Middle
+                        East</a>
+                </li>
+            </ul>
+            <div class="col-md-12">
+                <div class="tab-content text-center">
+                    <div id="Asia" class="tab-pane active">
+                        <div class="we_deal_container d-flex justify-content-center">
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/USD.png" alt="Card image cap">
+                                <p class="lead we_card_title">USD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/GBP.png" alt="Card image cap">
+                                <p class="lead we_card_title">GBP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/THB.png" alt="Card image cap">
+                                <p class="lead we_card_title">THB</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/NZD.png" alt="Card image cap">
+                                <p class="lead we_card_title">NZD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/AED.png" alt="Card image cap">
+                                <p class="lead we_card_title">AED</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ARS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ARS</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/BRL.png" alt="Card image cap">
+                                <p class="lead we_card_title">BRL</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/EGP.png" alt="Card image cap">
+                                <p class="lead we_card_title">EGP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/INR.png" alt="Card image cap">
+                                <p class="lead we_card_title">INR</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ILS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ISL</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/KWD.png" alt="Card image cap">
+                                <p class="lead we_card_title">KWD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ISK.png" alt="Card image cap">
+                                <p class="lead we_card_title">ISK</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/SEK.png" alt="Card image cap">
+                                <p class="lead we_card_title">SEK</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ZAR.png" alt="Card image cap">
+                                <p class="lead we_card_title">ZAR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Oceania_thePacific" class="tab-pane">
+                        <div class="we_deal_container d-flex justify-content-center">
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/USD.png" alt="Card image cap">
+                                <p class="lead we_card_title">USD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/GBP.png" alt="Card image cap">
+                                <p class="lead we_card_title">GBP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/THB.png" alt="Card image cap">
+                                <p class="lead we_card_title">THB</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/NZD.png" alt="Card image cap">
+                                <p class="lead we_card_title">NZD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/AED.png" alt="Card image cap">
+                                <p class="lead we_card_title">AED</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ARS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ARS</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/BRL.png" alt="Card image cap">
+                                <p class="lead we_card_title">BRL</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/EGP.png" alt="Card image cap">
+                                <p class="lead we_card_title">EGP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/INR.png" alt="Card image cap">
+                                <p class="lead we_card_title">INR</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ILS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ISL</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/KWD.png" alt="Card image cap">
+                                <p class="lead we_card_title">KWD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Europe" class="tab-pane">
+                        <div class="we_deal_container d-flex justify-content-center">
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/AED.png" alt="Card image cap">
+                                <p class="lead we_card_title">AED</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ARS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ARS</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/BRL.png" alt="Card image cap">
+                                <p class="lead we_card_title">BRL</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/EGP.png" alt="Card image cap">
+                                <p class="lead we_card_title">EGP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/INR.png" alt="Card image cap">
+                                <p class="lead we_card_title">INR</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ILS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ISL</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/KWD.png" alt="Card image cap">
+                                <p class="lead we_card_title">KWD</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="North_South_America" class="tab-pane">
+                        <div class="we_deal_container d-flex justify-content-center">
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/USD.png" alt="Card image cap">
+                                <p class="lead we_card_title">USD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/GBP.png" alt="Card image cap">
+                                <p class="lead we_card_title">GBP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/THB.png" alt="Card image cap">
+                                <p class="lead we_card_title">THB</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/NZD.png" alt="Card image cap">
+                                <p class="lead we_card_title">NZD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/AED.png" alt="Card image cap">
+                                <p class="lead we_card_title">AED</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ARS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ARS</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Africa_Middle_East" class="tab-pane">
+                        <div class="we_deal_container d-flex justify-content-center">
+                            <div class="d-flex we_deal_item">
+                                <img class="img-fluid" src="assets/images/currency_we_deal/USD.png" alt="Card image cap">
+                                <p class="lead we_card_title">USD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/GBP.png" alt="Card image cap">
+                                <p class="lead we_card_title">GBP</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/THB.png" alt="Card image cap">
+                                <p class="lead we_card_title">THB</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/NZD.png" alt="Card image cap">
+                                <p class="lead we_card_title">NZD</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/AED.png" alt="Card image cap">
+                                <p class="lead we_card_title">AED</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/ARS.png" alt="Card image cap">
+                                <p class="lead we_card_title">ARS</p>
+                            </div>
+                            <div class="d-flex we_deal_item">
+                                <img src="assets/images/currency_we_deal/BRL.png" alt="Card image cap">
+                                <p class="lead we_card_title">BRL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================================Currency We Deal With  End================================ -->
+    <!-- ================================10.top rated currency exchange strat here=================== -->
+    <section id="buy_curr_top_rat_cur_exc">
+        <div class="container">
+            <div class="top_rated">
+                <p class="top_rate_title">Top Rated Currency Exchange</p>
+                <div class="top_rate_p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit interdum, ac aliquet odio
+                    mattis. Class aptent taciti sociosqu ad litora torquent
+                    per conubia nostra, per inceptos himenaeos. Curabitur
+                    tempus urna at turpis condimentum lobortis.
+                </div>
+            </div>
+            <div class="top_container">
+                <div class="top_item ">
+                    <img class="top_item_img" src="assets/images/top_rated/trust.png" alt="">
+                </div>
+                <div class="top_item ">
+                    <img class="product_item_img" src="assets/images/top_rated/product.png" alt="">
+                </div>
+                <div class="top_item ">
+                    <img class="top_item_img" src="assets/images/top_rated/facebook.png" alt="">
+                </div>
+                <div class="top_item ">
+                    <img class="google_item_img" src="assets/images/top_rated/google.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================ Top Rated Currency Exchange end here=========================-->
+    <!--=================================12.Footer section start here============================== -->
+    <footer id="footer-section">
+        <section class="footer">
+            <div class="container">
+                <div class="col-md-2 col-sm-6 footer-logo float-left">
+                    <img src="assets/images/logo.png" alt="DaneshExchange" class="img-fluid">
+                </div>
+                <div class="row mx-auto">
+                    <div class="col-md-4 text-md-left mb-3 footer-menu">
+                        <ul class="list-unstyled text-footer">
+                            <li>
+                                <p class="footer-p">
+                                    Unlike the banks, our focus is only on
+                                    money exchange and money transfers. Our
+                                    store is located in Dandenong
+                                </p>
+                            </li>
+                            <li>
+                                <p class="footer-contact">
+                                    ABN: 33 168 434 133AFS
+                                </p>
+                                <p class="footer-contact">
+                                    Representative License: 1247458
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Quick Links</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="indv_blog.html" class="text">Indv Blog</a>
+                            </li>
+                            <li>
+                                <a href="currency_converter.html" class="text">Currency Converter </a>
+                            </li>
+                            <li>
+                                <a href="city.html" class="text">City</a>
+                            </li>
+                            <li>
+                                <a href="buy_cur_indv.html" class="text">Buy Currency Individual</a>
+                            </li>
+                            <li>
+                                <a href="privacy_policy.html" class="text">Generic Content</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-5 footer-menu float-start">
+                        <h5 class="footer-top">Our Service</h5>
+                        <ul class="list-unstyled mb-0 footer-list">
+                            <li>
+                                <a href="#!" class="text">Home</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">How It Works </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Exchange Rate</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Buy Currency</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">About Us </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text">Contact Us </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bottom-footer p-3 pt-0">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <div class="mt-3">
+                            <h6 class="copyright">
+                                Copyright © 2022 DaneshExchange. All rights
+                                reserved
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end mt-3">
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="social-icon btn btn-outline-light btn-floating m-1" class="text-white" role="button">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--============================================= footer end here========================-->
+
+    <!-- ===============================================js link here=============================  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/tiny-slider.min.js"></script>
+    <script src="assets/fontawesome/js/all.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/calculator.js"></script>
+</body>
+</html>

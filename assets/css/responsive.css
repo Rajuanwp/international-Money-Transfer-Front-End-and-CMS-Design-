@@ -1,0 +1,3127 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .title {
+        font-size: 27px;
+    }
+
+    /*========currency we deal with start here=======*/
+    .we_deal_title {
+        font-size: 25px;
+    }
+
+    /*========currency we deal with start here==========*/
+    .next {
+        right: 13px;
+    }
+
+    .prev {
+        left: 15px;
+    }
+
+    /* =======All Font Responsive  Start========== */
+    /* ==========About Section==========*/
+    #about_section .about_left_side .about_when_looking {
+        font-size: 16px;
+    }
+
+    #about_section .about_left_side .about_email_sectiom .phone_email {
+        font-size: 26px;
+    }
+
+    /* ==========About Section==========*/
+    /* How Long */
+    .how_does_long_title {
+        font-size: 25px;
+    }
+
+    /* How Long */
+    .we_card_title {
+        font-size: 17px;
+    }
+
+    #currency_exchange .order {
+        padding-top: 10px;
+    }
+
+    /* Excellent */
+    .excellent_section .excellent_top_p_tag {
+        font-size: 20px;
+    }
+
+    .top_rate_title {
+        font-size: 25px;
+    }
+
+    .top_rate_para {
+        padding: 0px;
+    }
+
+    #currency_exchange .oder_fr_title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    #currency_exchange .p_currency {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .how_right_p {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .how_card_title {
+        font-size: 23px;
+        line-height: 23px;
+        font-weight: 400;
+        padding: 17px 0px 0px 12px;
+    }
+
+    .how_card_para {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 0px 2px 0px 12px;
+    }
+
+    .how_right_p {
+        font-size: 16px;
+        line-height: 21px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .blog-head {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .blog-p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    /* All Font Responsive  End */
+    /* about_us_indv */
+    .about_title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    #who_we_are_section {
+        padding-top: 30px;
+    }
+
+    #about_top_rat {
+        padding-top: 50px;
+    }
+
+    #why_are_we_section {
+        margin-top: 30px;
+    }
+
+    .why_head {
+        padding-top: 30px;
+    }
+
+    .why_are_we_div {
+        padding-top: 30px;
+    }
+
+    #first_secure_section {
+        padding-top: 30px;
+    }
+
+    .why_right_side {
+        padding-top: 35px;
+    }
+
+    .who_we_are_title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .why_we_are_title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .why_are_we_title {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .why_we_are_subtitle {
+        padding: 0px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .who_sub_title {
+        padding: 0px;
+    }
+
+    /* indv blog section strat here */
+    .blog_indv_img {
+        padding-top: 20px;
+    }
+
+    .indv_blog_head {
+        font-size: 25px;
+        line-height: 34px;
+        margin-top: 15px;
+        padding: 0px;
+    }
+
+    .indv_blog_para {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 0px;
+    }
+
+    .indv_blog_subhead {
+        padding: 0px;
+    }
+
+    .travel_check {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .author_name {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 10px 0px 7px;
+    }
+
+    .author_div {
+        padding-top: 0px;
+        justify-content: center;
+    }
+
+    #indv_blog_section {
+        margin-top: 10px;
+    }
+
+    /* indv blog section end here */
+}
+
+@media (min-width: 1400px) {
+
+    /* ===========city page  start===========*/
+    .images {
+        bottom: 97%;
+        left: 0%;
+    }
+
+    .inner_img {
+        left: 35%;
+    }
+
+    .why_choose {
+        right: 41%;
+        padding-top: 15%;
+    }
+
+    .mid_img {
+        left: 43%;
+    }
+
+    /* ===========city page  start===========*/
+    .right_item:last-child {
+        margin-top: 0px;
+    }
+
+    /* ===========why choose us start===========*/
+    .why-chose-img {
+        top: 27%;
+        left: 46%;
+        width: 8%;
+    }
+
+    /* ===========why choose us start===========*/
+    /* ========what our client think start=====*/
+    .next {
+        right: 102%;
+    }
+
+    .prev {
+        left: 101%;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        top: 121px;
+        right: 0%;
+    }
+
+    .right {
+        left: 30px;
+    }
+
+    /*===========what our client think end=========== */
+    /* =======Currency We Deal With  Start======= */
+    #currency_exchange .arrow_exchange {
+        left: 339px;
+        top: 90px;
+    }
+
+    #currency_exchange .arrow_exchange_right {
+        left: 351px;
+        top: 94px;
+    }
+
+    .we_card_title {
+        left: 80px !important;
+    }
+
+    /*=========== Currency We Deal With  end=========== */
+    /* ===========top rated start here ===========*/
+    .top_rate_p {
+        padding: 12px 180px;
+    }
+
+    /* ===========top rated end here=========== */
+    .email_left {
+        height: 118px;
+        width: calc(100% - 51%) !important;
+        bottom: calc(100% - 82.2%) !important;
+    }
+
+    #about_section .about_left_side .about_when_looking {
+        padding-right: 122px;
+    }
+
+    #about_section .about_left_side .about_service_offer_title {
+        margin-top: 39px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .email_left {
+        width: calc(100% - 89%) !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1400) {
+    .email_left {
+        width: calc(11%) !important;
+        height: 118px;
+        z-index: 1;
+        bottom: 170px;
+    }
+
+    .right_item:last-child {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .blog-div:last-child {
+        padding-right: 8px;
+    }
+
+    /* =================currency converter start =================  */
+    .cur_con__head {
+        font-size: 53px;
+        line-height: 66px;
+    }
+
+    /* =================currency converter end =================  */
+    /* =================city page  design  start =================  */
+    .city_head {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .city_subtitle {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .mid_img {
+        left: 47%;
+        padding-top: 6%;
+    }
+
+    .why_choose {
+        right: 30%;
+        padding-top: 19%;
+    }
+
+    .images {
+        position: relative;
+        bottom: 94%;
+        left: -7%;
+    }
+
+    .first_item {
+        padding: 0px 105px 0px 1px;
+    }
+
+    .second_item {
+        padding: 51px 128px 0px 0px;
+    }
+
+    .third_item {
+        padding: 0px 75px 0px 0px;
+    }
+
+    .forth_item {
+        padding: 0px 56px 0px 0px;
+    }
+
+    .sixth_item {
+        padding: 44px 0px 0px 87px;
+    }
+
+    .first_title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .first_para {
+        font-size: 14px;
+    }
+
+    /* =================city page  design  end =================  */
+    /* =================What makes us Different start =================  */
+    .what_makes_us_title {
+        font-size: 20px;
+    }
+
+    .how_card_para {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .curr_how_btn {
+        font-size: 14px;
+        padding: 8px 8px;
+    }
+
+    /* =================What makes us Different  end=================*/
+    .why-chose-img {
+        top: 39%;
+        width: 15%;
+        left: 43%;
+    }
+
+    .content_left {
+        margin-top: -27px;
+    }
+
+    .content_right {
+        margin-top: -27px;
+    }
+
+    /* =============About Section Start============= */
+    #about_section .about_left_side .about_email_sectiom {
+        width: calc(100% + 1.8%);
+    }
+
+    .email_left {
+        width: calc(100% - 88%) !important;
+        bottom: calc(100% - 88.6%) !important;
+    }
+
+    .about_right_side {
+        margin-top: 26px;
+    }
+
+    /* =============About Section End============= */
+    /* =============contact us start============= */
+    .contact_form {
+        padding: 20px;
+    }
+
+    textarea.contact_form {
+        /* min-height: 62px; */
+        line-height: 25px;
+    }
+
+    .heading {
+        line-height: 10px;
+    }
+
+    .sub_heading {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .icon {
+        margin-top: 20px;
+    }
+
+    /* =============contact us end============= */
+    /*===================== Top rated start ======================*/
+    .top_item {
+        flex-basis: 23%;
+        margin: 0px 7px;
+    }
+
+    .top_item_img {
+        position: absolute;
+        top: 10px;
+        left: 22px;
+    }
+
+    .product_item_img {
+        position: absolute;
+        top: 33px;
+        left: 12px;
+    }
+
+    .google_item_img {
+        position: absolute;
+        top: 16px;
+        left: 49px;
+    }
+
+    /*===================== Top rated start ======================*/
+    /*===================== Blog start ======================*/
+    .blog-p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 18px;
+        line-height: 22px;
+        color: #3F3F3F;
+    }
+
+    .forex {
+        color: #02A6EB;
+        font-size: 14px;
+    }
+
+    .blog-p {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #666666;
+    }
+
+    /*===================== Blog end ======================*/
+    #footer-section {
+        margin-top: 10px;
+    }
+
+    .blog_section_head {
+        padding-top: 10px;
+    }
+
+    .card_blog {
+        padding-bottom: 15px;
+    }
+
+    .blog-card {
+        padding-bottom: 0px;
+    }
+
+    .forex_head {
+        padding: 0px;
+    }
+
+    /*===================== Blog start ======================*/
+    .blog_main_head {
+        font-size: 29px;
+        line-height: 30px;
+    }
+
+    .blog_head_para {
+        font-size: 18px;
+        line-height: 21px
+    }
+
+    .blog-p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 18px;
+        line-height: 22px;
+        color: #3F3F3F;
+    }
+
+    .forex {
+        color: #02A6EB;
+        font-size: 14px;
+    }
+
+    .blog-p {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #666666;
+    }
+
+    /*===================== Blog end ======================*/
+    /* =================Navbar menu start here================= */
+    .navbar .navbar-menu a {
+        padding: 11px;
+        font-size: 12px;
+    }
+
+    .navbar #scale {
+        height: 40px;
+    }
+
+    .copyright {
+        top: 7px;
+    }
+
+    /* =================Navbar menu end here=================*/
+    /* =================Excellent Section Start ================= */
+    .excelent_item:last-child {
+        margin-right: 451px;
+    }
+
+    /* =================Excellent Section End================*/
+    /* ==========how does  long curenccy exchange start===  */
+    .how_long_img {
+        margin-top: 96px;
+    }
+
+    /* =================how does  long curenccy exchange end=================*/
+    /*================= how does curenccy exchange start================ */
+    #currency_exchange .arrow_exchange {
+        position: absolute;
+        right: 0px;
+        top: 94px;
+        left: 227px;
+    }
+
+    /* =================how does curenccy exchange en =================*/
+    /* =================hero menu section start here=================  */
+    .select2-container {
+        width: 280px !important;
+    }
+
+    .cal_flag {
+        height: auto;
+        width: 19%;
+    }
+
+    /* =================hero menu section end here============== */
+    /* ========Currency We Deal With  Responsive Start============ */
+    #currency_we_deal_with {
+        margin-top: -61px;
+        background-color: #e6f6fd;
+        padding-top: 75px;
+        padding-bottom: 80px;
+    }
+
+    .we_deal_item {
+        flex-basis: 13%;
+    }
+
+    /* ==================Currency We Deal With  Responsive end============ */
+    /* ==================What our client think about us start here =========*/
+    .next {
+        right: 107%;
+    }
+
+    .prev {
+        left: 96%;
+    }
+
+    .left {
+        top: 68px;
+        left: 8px;
+        color: white;
+        font-size: 33px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        top: 129px;
+        right: 3px;
+        width: 12px;
+    }
+
+    /* =================What our client think about us  end here================*/
+    /* =================currency exchange individual strat here================*/
+    .curr_exc_hero_head {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .curr_exc_hero_para {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    /* =================currency exchange individual end here================*/
+    /* =================individual blog section start  here================*/
+    .author_name {
+        padding: 10px 12px 0px 20px;
+    }
+
+    .indv_blog_para,
+    .indv_blog_head,
+    .indv_blog_subhead {
+        padding: 0px;
+    }
+
+    /* =================individual blog section end here================*/
+    /* ================= buy currency individual  section start here================*/
+    .cny_head {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .right_item:last-child {
+        margin-top: 0px;
+    }
+
+    .cur_indv_hero {
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .bullet_ltext {
+        font-size: 24px;
+    }
+
+    /* ================= buy currency individual  section end here================*/
+    /* ================= buy currency  section strat here================*/
+    .buy_curr_hero_head {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    /* ================= buy currency  section end here================*/
+    /* ================= privacy policy start here================*/
+    .privacy_title {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .privacy_top_head {
+        font-size: 34px;
+        line-height: 36px;
+        padding-top: 20px;
+    }
+
+    /* ================= privacy policy end here================*/
+}
+
+@media (max-width: 991px) {
+
+    /* .right_item:last-child {
+        margin-top: -24px;
+    } */
+
+    .why_choose {
+        right: 31%;
+        bottom: 40px;
+    }
+
+    .inner_img,
+    .outer_img,
+    .mid_img {
+        display: none;
+    }
+
+    .first_item {
+        padding: 0px;
+    }
+
+    .second_item {
+        padding: 0px;
+    }
+
+    .third_item {
+        padding: 0px;
+    }
+
+    .sixth_item {
+        padding: 0px;
+    }
+
+    .seventh_item {
+        padding: 0px;
+    }
+
+    /* =================What our client think about us  start here=========== */
+    .carousel-indicators [data-bs-target] {
+        right: 3%;
+    }
+
+    /* ===============What our client think about us  end here==================== */
+    /* ==========================Navbar section start here==========================  */
+    .navbar .menu_btn {
+        left: 10px;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: 10px;
+        margin-top: 0.125rem;
+    }
+
+    .text {
+        text-decoration: none;
+    }
+
+    .navbar-collapse {
+        background: #ffffff;
+        z-index: 1;
+    }
+
+    .navbar #scale {
+        display: none;
+    }
+
+    .dropdown-item {
+        color: #FFFFFF;
+        font-size: 16px;
+    }
+
+    /* ==============Navbar section end here===============*/
+    /*================ contact us start here ============== */
+    .first_name {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .last_name {
+        padding: 0px;
+    }
+
+    /*================ contact us end here ============== */
+    /*============ Blog section start  here ============== */
+    .forex {
+        color: #02A6EB;
+        font-size: 11px;
+    }
+
+    .blog-head {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .blog-p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 18px;
+    }
+
+    .blog_name {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .b_date {
+        padding-top: 9px;
+        font-size: 12px;
+    }
+
+    /* ===========================Blog section end here=========================== */
+    /* ==========================Footer section start here======================*/
+    .copyright {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+
+    .footer .footer-menu .footer-p {
+        color: #B3B3B3;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .footer-top {
+        color: #D9D9D9;
+        font-size: 20px;
+        line-height: 24.13px;
+    }
+
+    .footer .footer-menu .text {
+        color: #B3B3B3;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .footer-contact {
+        font-size: 16px;
+    }
+
+    /* ==========================Footer section end here==========================  */
+    /* ==================Currency we deal with start here==================  */
+    .nav-pills .nav-link:last-child {
+        margin-top: 13px;
+    }
+
+    .we_deal_item {
+        flex-basis: 29%;
+    }
+
+    .we_deal_item:last-child {
+        margin-right: 236px;
+    }
+
+    /* ==========================Currency we deal with end here==========================  */
+    /* ==========================How does currency exc start here==========================  */
+    .arrow {
+        height: auto;
+        width: 98px;
+        top: 44px;
+        position: absolute;
+        right: -5px;
+    }
+
+    #currency_exchange .p_title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* ==========================How does currency exc end here===================  */
+    /* =======================How Long does it Takes start here===================  */
+    .how_card_title {
+        margin: 0;
+        font-size: 22px;
+        line-height: 28px;
+        padding: 13px 0px 0px 13px;
+    }
+
+    .how_card_para {
+        margin: 0;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0px 0px 0px 13px;
+    }
+
+    .confiram_icon {
+        margin-top: 34px;
+        margin-left: 10px;
+    }
+
+    .how_right_p {
+        font-size: 16px;
+        line-height: 21px;
+        padding: 0px 1px 0px 0px;
+        margin: 0px;
+    }
+
+    .how_long_right_card {
+        height: 107px;
+        margin: 8px 0px 0px 0px;
+    }
+
+    /* ==========================How Long does it Takes end==========================  */
+    /* ==========================hero section  start here ========================== */
+    .how_btn {
+        font-size: 14px;
+        outline: unset;
+        padding: 11px 17px;
+    }
+
+    .aud_field {
+        font-size: 12px;
+    }
+
+    /*========================== hero section end here==========================  */
+    /*=========================== Blog section start  here =========================== */
+    .forex {
+        color: #02A6EB;
+        font-size: 11px;
+    }
+
+    .blog-head {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .blog-p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 18px;
+    }
+
+    .blog_name {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .b_date {
+        padding-top: 9px;
+        font-size: 12px;
+    }
+
+    /* ===========================Blog section end here=========================== */
+    /* ===============How to buy foreign currency in australia start here============  */
+    .city {
+        font-size: 28px;
+        left: 25%;
+    }
+
+    .how_curr_row {
+        padding-top: 0px;
+    }
+
+    /* ==========How to buy foreign currency in australia end here===========  */
+    /* =======================What makes us Different start here===================  */
+    .what_makes_us_title {
+        font-size: 16px;
+        padding: 13px 0px 0px 13px;
+    }
+
+    .how_card_para {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0px 0px 0px 13px;
+    }
+
+    .confiram_icon {
+        margin-top: 34px;
+        margin-left: 10px;
+    }
+
+    .what_makes_us_right {
+        height: 107px;
+        margin: 8px 0px 0px 0px;
+    }
+
+    /* ==========================What makes us Different end==========================  */
+    /* ===========How to buy foreign currency in australia start here============  */
+    .city {
+        font-size: 28px;
+        left: 25%;
+    }
+
+    .how_curr_row {
+        padding-top: 0px;
+    }
+
+    /* ==========================How to buy foreign currency in australia end here===================  */
+    /* =======================What makes us Different start here===================  */
+    .what_makes_us_title {
+        font-size: 16px;
+        padding: 13px 0px 0px 13px;
+    }
+
+    .how_card_para {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0px 0px 0px 13px;
+    }
+
+    .confiram_icon {
+        margin-top: 34px;
+        margin-left: 10px;
+    }
+
+    .what_makes_us_right {
+        height: 107px;
+        margin: 8px 0px 0px 0px;
+    }
+
+    .curr_how_btn {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    /* ==========================What makes us Different end==========================  */
+}
+
+@media (max-width: 768px) {
+
+    /* ===========what our client think about us start here =============== */
+    .carousel-indicators [data-bs-target] {
+        top: 127px;
+        left: 1px;
+    }
+
+    /* ===========what our client think about us end here =============== */
+    /*============================== Navbar section start here===================  */
+    .navbar-toggler {
+        margin-top: -21px;
+    }
+
+    /*================= Navbar section end here================  */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* ===========curency converter page start===========*/
+    .curr_converter_hero {
+        padding-top: 0px;
+    }
+
+    .cur_con__head {
+        font-size: 38px;
+        line-height: 16px;
+    }
+
+    .cur_con__para {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    /* ===========curency converter page end===========*/
+    /* ===========city page start===========*/
+    .city_head {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .city_hero {
+        padding-top: 0px;
+    }
+
+    .city_subtitle {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .city_para {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /* ===========city page end===========*/
+
+    /* ===========why choose us start===========*/
+    #why_choose_us_accordion {
+        display: block;
+    }
+
+    #why_choose_us {
+        display: none;
+    }
+
+    #why_choose_us_accordion {
+        padding: 90px;
+    }
+
+    .why-chose-img {
+        display: none;
+    }
+
+    .why-choose-head {
+        font-size: 14px;
+    }
+
+    /* ===========why choose us start===========*/
+    /* =============navbar Start========== */
+    .navbar .logo img {
+        width: 85%;
+    }
+
+    /* =============navbar end========== */
+    /* =============blog section start here========== */
+    .blog-div:last-child {
+        padding-right: 7px;
+    }
+
+    .blog_section_head {
+        padding-top: 10px;
+    }
+
+    .head_img {
+        padding-top: 94px;
+        margin-left: 5px;
+    }
+
+    .blog-footer {
+        padding: 0px 42px 0px 19px;
+    }
+
+    .blog_head_date {
+        padding-top: 7px;
+    }
+
+    .page-item {
+        padding: 0px 5px 0px 5px;
+    }
+
+    .blog_main_head {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .blog_head_para {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* =============blog section end here========== */
+    /* =========contact us start here============== */
+    .icon {
+        margin-top: 15px;
+    }
+
+    .contact_form {
+        padding: 17px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    textarea.contact_form {
+        line-height: 25px;
+    }
+
+    .heading {
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    .sub_heading {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .contact_time {
+        line-height: 0px;
+        font-size: 11px;
+    }
+
+    .submit_btn {
+        padding: 12px 45px 12px 40px;
+    }
+
+    /*=============contact us end here=============== */
+    /* ============Top Rated Section Start ========= */
+    .product_item_img {
+        left: 27px;
+    }
+
+    .top_item {
+        flex-basis: 31%;
+        margin: 7px 9px;
+    }
+
+    /* ============Top Rated Section  End  ===========*/
+    /* =============About Start========== */
+    .about_right_side {
+        margin-top: 83px;
+    }
+
+    .email_left {
+        width: calc(100% - 85%) !important;
+        bottom: calc(100% - 89.6%) !important;
+    }
+
+    /* =====================================About End================================= */
+    /*================ what our client think about us start here====================== */
+    .next {
+        right: 114%;
+    }
+
+    .right {
+        position: absolute;
+        top: 68px;
+        left: 8px;
+        font-size: 33px;
+    }
+
+    .prev {
+        left: 89%;
+    }
+
+    .left {
+        position: absolute;
+        top: 68px;
+        left: 3px;
+        font-size: 33px;
+    }
+
+    /*================what our client think about us end here=============== */
+    /* ================Currency We Deal with start here================ */
+    .we_card_title {
+        left: 114px;
+    }
+
+    #currency_exchange .arrow_exchange {
+        position: absolute;
+        right: 0px;
+        top: 64px;
+        left: 273px;
+    }
+
+    /* ================Currency We Deal with end here================ */
+    /*================== hero menu section start here=============== */
+    .home_delivery {
+        width: 60%;
+    }
+
+    .hero_arrow {
+        left: 57%;
+    }
+
+    .you_have_img {
+        max-width: 100%;
+        height: 75%;
+    }
+
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        font-size: 14px;
+    }
+
+    #delivery_method {
+        font-size: 14px;
+    }
+
+    .total_amount {
+        color: #666666;
+    }
+
+    .select2-container {
+        width: 180px !important;
+    }
+
+    .cal_flag {
+        height: auto;
+        width: 30%;
+    }
+
+    .hero_head {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .hero_para {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    /* ===================hero menu section end here===============  */
+    /* ==================Excellent section start here===============  */
+    .exe_container {
+        width: 100%;
+    }
+
+    .excelent_item {
+        flex-basis: 29%;
+        margin: 5px;
+    }
+
+    .excelent_item:last-child {
+        margin-right: 438px;
+    }
+
+    /* =========================Excellent end here====================   */
+    /*==============currency exchange individual  start here ============  */
+    .curr_exc_hero_head {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .curr_exc_hero_para {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .where_para {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /*=======currency exchange individual end here ============  */
+    /*============== buy currency strat here ============  */
+    .buy_curr_hero_head {
+        font-size: 34px;
+        padding-top: 50px;
+        line-height: 40px;
+    }
+
+    .buy_curr_hero_para {
+        font-size: 18px;
+        padding-top: 0px;
+        line-height: 22px;
+    }
+
+    /*============== buy currency end here ============  */
+    /*============== indiv blog start here ============  */
+    #indv_blog_section {
+        margin-top: 30px;
+    }
+
+    .blog_indv_img {
+        padding-top: 30px;
+    }
+
+    .indv_blog_head {
+        font-size: 28px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .indv_blog_para,
+    .indv_blog_head,
+    .indv_blog_subhead {
+        padding: 0px;
+    }
+
+    .author_div {
+        padding-top: 0px;
+    }
+
+    .author_name {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 14px 4px 0px 10px;
+    }
+
+    /*============== indiv blog end here ============  */
+    /* ================= buy currency individual  section start here================*/
+
+    .cur_indv_hero {
+        font-size: 33px;
+        line-height: 34px;
+    }
+
+    .buy_cur_inv_hero_para {
+        font-size: 15px;
+        line-height: 14px;
+    }
+
+    .btn_text {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .buy_cur_inv_sub_hero_para {
+        font-size: 21px;
+        line-height: 15px;
+    }
+
+    .china_img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .china_head {
+        font-size: 35px;
+        line-height: 20px;
+    }
+
+    .cny_head {
+        font-size: 18px;
+    }
+
+    .right_item:last-child {
+        padding-top: 0px;
+    }
+
+    .know_head {
+        font-size: 18px;
+    }
+
+    .bullet_ltext {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .right_item {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .by_foreign_title {
+        font-size: 30px;
+    }
+
+    /* ================= buy currency individual  section end here================*/
+    /* ================= privacy policy start here================*/
+    .privacy_title {
+        font-size: 35px;
+        line-height: 20px;
+    }
+
+    .privacy_subtitle {
+        font-size: 16px;
+    }
+
+    .privacy_top_head {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 25px;
+    }
+
+    .privacy_head {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    /* ================= privacy policy end here================*/
+}
+
+@media (max-width: 767px) {
+    .right_item:last-child {
+        padding-top: 0px;
+    }
+
+    /*=================== why choose us strat ================*/
+    #why_choose_us_accordion {
+        padding: 90px;
+    }
+
+    #why_choose_us_accordion {
+        display: block;
+    }
+
+    #why_choose_us {
+        display: none;
+    }
+
+    /* ===================why choose us end========================= */
+    /* ===================contatc us start========================= */
+    .last_name {
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    /* ===================contatc us end========================= */
+    /* ==========================Blog-start here===============  */
+    .blog-head {
+        font-size: 11px;
+        line-height: 15px;
+        font-weight: 500;
+    }
+
+    .blog-p {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    /*=================== Blog-end here ==================== */
+    /* ===================blog section end here========================= */
+    /* ====================About Section Start ========*/
+    #about_section .about_left_side .about_email_sectiom {
+        background-color: #E6F6FD;
+    }
+
+    .email_left {
+        display: none;
+    }
+
+    #about_section .about_left_side .about_email_sectiom {
+        margin-bottom: 12px;
+    }
+
+    /*==========================================about End============================*/
+    /*================Currency we Deal with start here ================*/
+    .we_card_title {
+        left: 86px;
+    }
+
+    /*================ Currency wE Deal with end================*
+/*================ How Dose Long Start ================*/
+    .how_long_right_card {
+        height: 121px;
+        margin: 21px 0px 0px 0px;
+    }
+
+    /*================ How Dose Long End ================*/
+    /*=============Top Rated Section Start==================*/
+    .top_item {
+        flex-basis: 47%;
+        margin: 5px 8px;
+    }
+
+    .top_item_img {
+        top: 5px;
+        left: 33px;
+        width: 64%
+    }
+
+    .google_item_img {
+        top: 6px;
+        left: 52px;
+        width: 58%;
+    }
+
+    .product_item_img {
+        top: 37px;
+        left: 11px;
+        width: 80%;
+    }
+
+    /*==============Top Rated Section End===================*/
+    /*================= hero section start here ============ */
+    .cal_flag {
+        height: auto;
+        width: 16%;
+    }
+
+    .hero_head {
+        font-size: 36px;
+        line-height: 49px;
+    }
+
+    .hero_p {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    .total_amount {
+        font-size: 20px;
+    }
+
+    /*================= hero section end here =============== */
+    /*============== footer menu start here=====================  */
+    .footer .footer-menu .footer-p {
+        color: #B3B3B3;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .footer-top {
+        color: #D9D9D9;
+        font-size: 16px;
+        line-height: 5px;
+    }
+
+    .footer .footer-menu .text {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+    }
+
+    .float-end {
+        float: none;
+    }
+
+    /*============================ Footer  end here=====================  */
+
+    /* ====================How does currecncy exc-start here=================  */
+    .arrow_exchange {
+        display: none;
+    }
+
+    #currency_exchange {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* ================How does currecncy exc-end here===============  */
+    /* ================Currency We Deal With  Responsive End================  */
+    .we_deal_item:last-child {
+        margin-right: 10px;
+    }
+
+    /* ================Currency We Deal With  Responsive start================  */
+    /* ==========================Blog-start here===============  */
+    .blog-head {
+        font-size: 11px;
+        line-height: 15px;
+        font-weight: 500;
+    }
+
+    .blog-p {
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    /*=================== Blog-end here ==================== */
+    /* ==============What our Client think start here ================*/
+    .content {
+        width: 70%;
+        left: 20%;
+    }
+
+    .next {
+        width: 40%;
+        right: 32%;
+    }
+
+    .prev {
+        width: 40%;
+        left: 29%;
+    }
+
+    .left {
+        left: 0px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        left: 0%;
+    }
+
+    /* ============What our Client thin end here================*/
+    /* ============What makes us Different  start =============*/
+    .what_make_p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ===========What makes us Different end ======= */
+    /* ===========currency exchange individual start here======= */
+    .curr_exc_hero_head {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .curr_exc_hero_para {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .where_para {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /* ===========currency exchange individual end here======= */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    /* ==========currency converter page start here==========*/
+    .curr_converter_hero {
+        padding-top: 0px;
+    }
+
+    .cur_con__head {
+        font-size: 42px;
+    }
+
+    .cur_con__para {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    /* ==========currency converter page end here==========*/
+    /* ==========city page start here==========*/
+    .city_head {
+        font-size: 50px;
+        line-height: 53px;
+    }
+
+    .first_item,
+    .second_item,
+    .third_item,
+    .sixth_item,
+    .seventh_item {
+        padding: 0px 20px 0px 0px;
+    }
+
+    .first,
+    .second,
+    .third,
+    .forth,
+    .fifth,
+    .six,
+    .seventh {
+        font-size: 37px;
+        line-height: 40PX;
+    }
+
+    .first_title {
+        font-size: 14px;
+    }
+
+    .first_para {
+        font-size: 14px;
+    }
+
+    /* ==========city page end here==========*/
+    /* ==========navbar Section start here==========*/
+    .navbar .logo img {
+        width: 86%;
+    }
+
+    /* ==========navbar Section end here==========*/
+    /* ======currency we deal with  section start here==========  */
+    .we_card_title {
+        font-size: 17px;
+    }
+
+    #currency_exchange .order {
+        padding-top: 10px;
+    }
+
+    /*=============currency we deal with  section end here ===============  */
+    /* =================contact us start here ===============  */
+    .contact_us_div:first-child {
+        padding-left: 14px;
+    }
+
+    .contact_form {
+        padding-left: 0px;
+    }
+
+    .heading {
+        line-height: 0px;
+    }
+
+    .contact_form {
+        padding: 20px;
+        line-height: 15px;
+    }
+
+    textarea.contact_form {
+        line-height: 30px;
+    }
+
+    .submit_btn {
+        padding: 10px 40px 10px 40px;
+    }
+
+    .contact_head {
+        font-size: 40px;
+    }
+
+    .sub_heading {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .contact_time {
+        line-height: 0px;
+    }
+
+    .icon {
+        margin-top: 20px;
+    }
+
+    /* ========contact us end here ===============  */
+    /* ==============blog start here ==============*/
+    .blog_section_head {
+        padding-top: 10px;
+    }
+
+    .head_img {
+        margin-left: 0px;
+    }
+
+    .blog-div:first-child {
+        padding-left: 15px;
+    }
+
+    .blog-div:last-child {
+        padding-right: 15px;
+    }
+
+    .blog_name {
+        font-size: 14px;
+    }
+
+    .b_date {
+        font-size: 14px;
+    }
+
+    .blog-head {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    /* ==========blog end here ==========*/
+    /* ==============Excellent section start=========== */
+    .excellent_section .excellent_top_p_tag {
+        font-size: 20px;
+    }
+
+    #currency_exchange .oder_fr_title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    #currency_exchange .p_currency {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .how_right_p {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .how_card_title {
+        font-size: 23px;
+        line-height: 23px;
+        font-weight: 400;
+        padding: 17px 0px 0px 12px;
+    }
+
+    .how_card_para {
+        font-size: 17px;
+        line-height: 20px;
+        padding: 0px 2px 0px 12px;
+    }
+
+    .how_right_p {
+        font-size: 16px;
+        line-height: 21px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    /* =========================Excellent section end================ */
+    /* =========================top rated section start here================ */
+    .top_rate_p {
+        padding: 0px;
+    }
+
+    /* ==============top rated section end here============ */
+    /* ==========what our client think Section==========*/
+    .slider_p {
+        line-height: 19px;
+    }
+
+    .right {
+        left: 8px;
+    }
+
+    /* ==========what our client think end Section==========*/
+    /* ==============blog start here ==============*/
+    .blog_name {
+        font-size: 14px;
+    }
+
+    .b_date {
+        font-size: 14px;
+    }
+
+    .blog-p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .blog-head {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    /* ==========blog end here ==========*/
+    /* ==========buy currency page individual start here==========*/
+    .cur_indv_hero {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .cny_head,
+    .know_head,
+    .bullet_ltext {
+        font-size: 19px;
+    }
+
+    .bullets {
+        padding-top: 24px;
+    }
+
+    .china_head {
+        font-size: 38px;
+    }
+
+    .buy_curr_hero_head {
+        font-size: 50px;
+        padding-top: 50px;
+        line-height: 57px;
+    }
+
+    /* ==========buy currency page individual end here==========*/
+    /* ==========privacy policy start here==========*/
+    .privacy_title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .privacy_top_head {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    .privacy_sub_title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .privacy_head {
+        font-size: 24px;
+        font-family: 'Gilroy-Bold';
+        line-height: 25px;
+    }
+
+    /* ==========privacy policy end here==========*/
+}
+
+@media(min-width:400px) and (max-width: 450px) {
+
+    /* buy curr indv page start  page */
+    .china_head {
+        font-size: 30px;
+        padding: 33px 96px 0px 0px;
+    }
+
+    .cny_head,
+    .know_head,
+    .bullet_ltext,
+    .right_item {
+        font-size: 14px;
+    }
+
+    .right_item:last-child {
+        margin-top: 26px;
+    }
+
+    /* buy curr indv page end page */
+    .hero_arrow {
+        left: 45%;
+    }
+
+    .how_btn {
+        font-size: 20px;
+        outline: unset;
+        padding: 6px 16px;
+    }
+
+    /*=============== what our client think start here ============== */
+    .title {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /*=============== what our client think end here ============== */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .why-choose-head {
+        font-size: 14px;
+    }
+
+    /*=============Top Rated Section Start==================*/
+    .top_item {
+        flex-basis: 47%;
+        margin: 5px 4px;
+    }
+
+    .top_item_img {
+        top: 18px;
+        left: 21px;
+        width: 67%;
+    }
+
+    .google_item_img {
+        top: 14px;
+        left: 25px;
+        width: 61%;
+    }
+
+    .product_item_img {
+        top: 37px;
+        left: 11px;
+        width: 80%;
+    }
+
+    .we_deal_item {
+        flex-basis: 42%;
+    }
+
+    /*==============Top Rated Section End===================*/
+    /*=====currency exchange individual start here===================*/
+    .curr_exc_hero_head {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .curr_exc_hero_para {
+        font-size: 22px;
+    }
+
+    /*==============currency exchange individual end here===================*/
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    /* *================ Excellent start here =========================   */
+    .excellent_section {
+        margin-top: 58px;
+        padding: 0px;
+    }
+
+    #how_to_buy_cur_in_aus {
+        margin-top: 30px;
+    }
+
+    .exe_container {
+        width: 100%;
+    }
+
+    .excelent_item {
+        flex-basis: 46%;
+    }
+
+    .card_title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .buy_button {
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    /* =================Excellent end here ===============  */
+    /* =================blog start here ===============  */
+    .blog-p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .page-item {
+        padding: 0px 3px 0px 3px;
+    }
+
+    .page-link {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 1px 15px 2px 15px;
+    }
+
+    /* =================blog end here ===============  */
+    /* =================footer section start here ===============  */
+    .copyright {
+        font-size: 18px;
+        padding-left: 36px;
+    }
+
+    /* =================footer section start here ===============  */
+}
+
+@media (min-width: 450px) and (max-width: 575px) {
+
+    /*==========Footer section start here =====================*/
+    .title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40.19px;
+    }
+
+    /*=========footer section start here =====================*/
+    /*===================== blog start here================ */
+    .forex {
+        color: #02A6EB;
+        font-size: 14px;
+    }
+
+    .blog-head {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+
+    .blog-p {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /*===================== Blog end here================ */
+}
+
+@media (min-width: 370px) and (max-width: 400px) {
+
+    /* currency converter  start here */
+    .cur_con__head {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .cur_con__para {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    /* currency converter  end here */
+    /* city page design  start here */
+    .city_head {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .city_hero {
+        padding-top: 0px;
+    }
+
+    .first,
+    .second,
+    .third,
+    .forth,
+    .fifth,
+    .six,
+    .seventh {
+        font-size: 30px;
+        line-height: 30PX;
+    }
+
+    .first_title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .first_title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* city page design  end here */
+    /* buy currency indv start */
+    .btn_text {
+        font-size: 20px;
+    }
+
+    .buy_cur_indv_hero_title {
+        padding-top: 50px;
+    }
+
+    .cur_indv_hero {
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .buy_cur_inv_sub_hero_para {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .china_img {
+        height: 120px;
+    }
+
+    .china_head {
+        font-size: 30px;
+        padding: 35px 80px 0px 0px;
+    }
+
+    .cny_head,
+    .know_head,
+    .bullet_ltext,
+    .right_item {
+        font-size: 13px;
+    }
+
+    .right_item:last-child {
+        margin-top: 25px;
+    }
+
+    /* buy currency indv end */
+    /* why choose us start */
+    .why_choose_row {
+        right: 35%;
+        position: relative;
+    }
+
+    .accordion-item {
+        width: 170%;
+    }
+
+    /* why choose us end */
+    /* contatc us start here */
+    .last_name {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .first_name {
+        padding: 0px;
+    }
+
+    /* contatc us end here */
+    /*==============What Our Clint start=========== */
+    .carousel-indicators [data-bs-target] {
+        right: 0px;
+    }
+
+    /*==============What Our Clint End=========== */
+    /* =====hero section start here ============= */
+    .how_btn {
+        font-size: 18px;
+        outline: unset;
+        padding: 8px 14px
+    }
+
+    /* =================hero section end here ============= */
+    /* =================blog section start here ============= */
+    .blog-head {
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+    .blog-head {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .select2-container {
+        width: 200px !important;
+    }
+
+    /* =================blog section end here ============= */
+    .blog-p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .blog_main_head {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .blog_head_date {
+        padding-top: 5px;
+    }
+
+    .blog-footer {
+        padding: 0px 21px 0px 20px;
+    }
+
+    .page-item {
+        padding: 0px 2px 0px 2px;
+    }
+
+    .page-link {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 2px 10px 2px 10px;
+    }
+
+    /*===============footer start ================*/
+    .float-end {
+        float: none;
+    }
+
+    /* ================fotter end================*/
+    .title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 86.19px;
+    }
+
+    /*============= navbar menu start============= */
+    .navbar #scale {
+        display: none;
+    }
+
+    /* =============navbar menu end===========  */
+    /* =========what think about us start here=============== */
+    .carousel-indicators [data-bs-target] {
+        right: 0px;
+    }
+
+    .slider_p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .slider_title {
+        font-size: 18px;
+        line-height: 0px;
+    }
+
+    /* buy curr strat here  */
+    .how_card_para {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .what_makes_us_title {
+        font-size: 21px;
+    }
+
+    .city {
+        left: 38%;
+    }
+
+    .buy_curr_hero_head {
+        font-size: 30px;
+        padding-top: 47px;
+        line-height: 30px;
+    }
+
+    .buy_curr_sub_hero {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .buy_curr_hero_para {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* buy curr strat end */
+    /* privacy policy start here */
+    .privacy_head {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .privacy_title {
+        font-size: 38px;
+        line-height: 30px;
+    }
+
+    /* privacy policy end here */
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+
+    /*city page  strat here */
+    .city_head {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .city_subtitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .city_para {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .city_why_choose_row {
+        text-align: center;
+    }
+
+    .first_title {
+        line-height: 20px;
+    }
+
+    .first_para {
+        line-height: 20px;
+    }
+
+    /*city page  end here */
+    /* buy curr strat here */
+    .city {
+        left: 40%;
+    }
+
+    .curr_how_btn {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+
+    .curr_curr_how_btn {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+
+    /* buy curr strat end */
+    /*============= why choose us start ===========*/
+    .why-choose-head {
+        font-size: 13px;
+    }
+
+    /*=========== why choose us end ========*/
+    /*=========== contatc  us start here ========*/
+    .last_name {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .first_name {
+        padding: 0px;
+    }
+
+    /*=========== contatc  us end here ========*/
+    /* ==============excellent section start here===========  */
+    .exe_logo {
+        width: 75%;
+    }
+
+    .excellent_top_p_tag {
+        font-size: 20px;
+    }
+
+    /* =========excellent section end here  ================*/
+    /* =========Blog section start here  ================*/
+    .blog-head {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /*==============blog section end here ==================*/
+    /*==============what our client think section start here ==================*/
+    .next {
+        display: none;
+    }
+
+    .prev {
+        display: none;
+    }
+
+    /*==============what our client think section start here ==================*/
+    /*==============buy currency individual page start here ==================*/
+    .china_img {
+        height: 120px;
+        width: auto;
+    }
+
+    /*==============buy currency individual page end here ==================*/
+    /*==============buy currency page start here ==================*/
+    .buy_curr_hero_head {
+        font-size: 39px;
+        padding-top: 30px;
+        line-height: 52px;
+    }
+
+    /*==============buy currency page end here ==================*/
+    /*==============buy currency indv page strat here ==================*/
+    .cur_indv_hero {
+        font-size: 41px;
+        line-height: 40px;
+    }
+
+    .buy_cur_inv_sub_hero_para {
+        font-size: 22px;
+        line-height: 10px;
+    }
+
+    .btn_text {
+        font-size: 17px;
+        line-height: 15px;
+    }
+    /*==============buy currency indv page end here ==================*/
+}
+
+@media (min-width: 450px) and (max-width: 575px) {
+    .right_item:last-child {
+        margin-top: 22px;
+    }
+
+    .cny_head,
+    .know_head,
+    .bullet_ltext,
+    .right_item {
+        font-size: 16px;
+    }
+
+    .china_head {
+        font-size: 35px;
+        padding: 35px 163px 12px 23px;
+    }
+
+    /*=============== Footer section start here =====================*/
+    .title {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 40.19px;
+    }
+
+    /*=============== footer section start here =====================*/
+    /*===================== blog start here================ */
+    .forex {
+        color: #02A6EB;
+        font-size: 14px;
+    }
+
+    .blog-head {
+        font-size: 20px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+
+    .blog-p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /*===================== Blog end here================ */
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .blog_main_head {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .blog_head_date {
+        padding-top: 5px;
+    }
+
+    .blog-footer {
+        padding: 0px 48px 0px 20px;
+    }
+
+    .page-item {
+        padding: 0px 2px 0px 2px;
+    }
+
+    .page-link {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 2px 13px 2px 13px;
+    }
+
+    /* buy curr start here  */
+    .how_card_para {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0px 0px 0px 13px;
+    }
+
+    /* buy curr start end */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    /*======= Currency We Deal Start ======*/
+    .currency_we_deal_item {
+
+        margin-right: 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .nav_btn_cw {
+        padding: 2px 9px 2px;
+    }
+
+    /*==========Currency We Deal End====== */
+    .cal_flag {
+        height: auto;
+        width: 24%;
+    }
+
+    /*============================= what think about us start here====================== */
+    .prev {
+        display: none;
+    }
+
+    .next {
+        display: none;
+    }
+
+    /*============================= what think about us end here====================== */
+    /*============================= hero section start here====================== */
+    .hero_head {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .hero_p {
+        font-size: 22px;
+    }
+
+    .select2-container {
+        width: 267px !important;
+    }
+
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        font-size: 14px;
+    }
+
+    /*================= hero section end here =============== */
+    /*================= excellent section start here =============== */
+    .exe_logo {
+        width: 100%;
+    }
+
+    .exe_container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .excelent_item {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /*===================== Excellent end here==============  */
+    .exe_logo {
+        width: 100%;
+    }
+
+    .exe_container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .excelent_item {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 370px) {
+
+    /* currency converter  start here */
+    .cur_con__head {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .cur_con__para {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    /* currency converter  end here */
+    /* city page design  start here */
+    .city_head {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .city_hero {
+        padding-top: 0px;
+    }
+
+    .city_subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .city_para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .first,
+    .second,
+    .third,
+    .forth,
+    .fifth,
+    .six,
+    .seventh {
+        font-size: 20px;
+        line-height: 8PX;
+    }
+
+    .first_title {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .first_para {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    /* city page design  end here */
+    /*=============== buy currency indv page start===============  */
+    .buy_cur_indv_hero_title {
+        padding-top: 40px;
+    }
+
+    .cur_indv_hero {
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    .buy_cur_inv_hero_para {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .buy_cur_inv_sub_hero_para {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .btn_text {
+        font-size: 14px;
+    }
+
+    .china_img {
+        height: 120px;
+    }
+
+    .china_head {
+        font-size: 30px;
+        padding: 35px 80px 0px 0px;
+    }
+
+    .cny_head,
+    .know_head,
+    .bullet_ltext,
+    .right_item {
+        font-size: 11px;
+    }
+
+    .right_item:last-child {
+        margin-top: 25px;
+    }
+
+    /*=============== buy currency indv page end===============  */
+    /*=============== nav bar start===============  */
+    .navbar .menu_btn {
+        left: 10px;
+    }
+
+    .dropdown-menu[data-bs-popper] {
+        top: 100%;
+        left: 10px;
+        margin-top: 0.125rem;
+    }
+
+    /* ===============nav bar start ============ */
+    /* ===============why choose us start ============ */
+    .title {
+        font-size: 23px;
+        line-height: 35px;
+    }
+
+    .accordion-button::after {
+        width: 1.1rem;
+        height: 1.01rem;
+    }
+
+    .why_choose_row {
+        box-sizing: content-box;
+        position: relative;
+        right: 45%;
+    }
+
+    .why-choose-head {
+        font-size: 12px;
+    }
+
+    .accordion-item {
+        width: 195%;
+    }
+
+    /* ===============why choose us start ============ */
+    /*==========Blog start here================*/
+    .page-link {
+        font-size: 10px;
+        line-height: 15px;
+        padding: 2px 8px 2px 8px;
+    }
+
+    .page-item {
+        padding: 0px 2px 0px 2px;
+    }
+
+    .blog-p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .blog-p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 20px;
+        line-height: 19px;
+    }
+
+    .blog_main_head {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .blog_head_para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .blog_head_name {
+        font-size: 12px;
+    }
+
+    .blog_head_date {
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .blog-footer {
+        padding: 0px 25px 0px 15px;
+    }
+
+    /*=================blog  end  here ==========================*/
+    /* ===========Top Rated Start======== */
+    .top_item {
+        Height: 75px;
+    }
+
+    /* =========Top Rated End ======*/
+    .we_deal_item {
+        flex-basis: 44%;
+    }
+
+    .cal_flag {
+        height: auto;
+        width: 30%;
+    }
+
+    /* =========================what our client think start here ================= */
+    .carousel-indicators [data-bs-target] {
+        left: 0px;
+    }
+
+    .slider_p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .content {
+        left: 23%;
+    }
+
+    .slider_title {
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    /*=====================what our client think end here ========================== */
+    /* ==================contact us start here ======================= */
+    .icon {
+        margin-top: 0px;
+    }
+
+    .contact_form {
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+    textarea.contact_form {
+        line-height: 25px;
+    }
+
+    .submit_btn {
+        padding: 10px 40px 10px 40px;
+    }
+
+    .heading {
+        font-size: 20px;
+        line-height: 0px;
+    }
+
+    .sub_heading {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .contact_time {
+        line-height: 0px;
+        font-size: 12px;
+    }
+
+    .last_name {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .first_name {
+        padding: 0px;
+    }
+
+    /* ==================contact us end here ======================= */
+    /* ====================hero menu section start here ========================= */
+    .home_delivery {
+        width: 70%;
+    }
+
+    .hero_arrow {
+        left: 60%;
+    }
+
+    .cal_btn {
+        padding: 0px 20px;
+    }
+
+    .cal_flag {
+        height: auto;
+        width: 30%;
+    }
+
+    .how_btn {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+
+    .select2-container {
+        width: 194px !important;
+    }
+
+    .hero_head {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .hero_p {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    .total_count {
+        font-size: 12px;
+    }
+
+    .total_amount {
+        font-size: 18px;
+    }
+
+    /* ===================hero menu section end here =============== */
+    /* =================Footer section  start here ==================== */
+    .copyright {
+        font-size: 14px;
+    }
+
+    .footer-contact {
+        color: #B3B3B3;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    /*================= footer end here ==========================*/
+    /*===============top rated start here ==========================*/
+    #top_rat_cur_exc {
+        margin-top: 0px;
+    }
+
+    .top_rate_p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    /*=================Top rated end here ==========================*/
+    /*====================Blog start here ==========================*/
+    .blog-p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    /*=================blog  end  here ==========================*/
+    /*====================Blog start here ==========================*/
+    .blog-p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .blog-head {
+        font-size: 25px;
+        line-height: 16px;
+    }
+
+    /*=================blog  end  here ==========================*/
+    /* buy curr strat here */
+    .city {
+        left: 35%;
+    }
+
+    .what_makes_us_title {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    #how_to_buy_cur_in_aus {
+        margin-top: 30px;
+    }
+
+    .how_card_para {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #buy_curr_top_rat_cur_exc {
+        padding-top: 30px;
+    }
+
+    /* Buy foreign currency at the best exchange rates */
+    .by_foreign_title {
+        font-size: 30px;
+    }
+
+    .curr_how_btn {
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+
+    .buy_curr_hero_head {
+        font-size: 26px;
+        line-height: 35px;
+        padding-top: 30px;
+    }
+
+    .buy_curr_hero_para {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /* buy curr end here */
+    /* currency exchnage individual start here */
+    .curr_exc_hero_head {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .curr_exc_hero_para {
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    #best_place_foreign_curr {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #what_is_cheapest {
+        padding-top: 30px;
+    }
+
+    .where_description {
+        padding-top: 15px;
+    }
+
+    .find_cheapest_places_title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #best_time_exc_money {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .when_is_best_time_exc_title {
+        padding-top: 30px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .how_does_long_conatiner {
+        padding-top: 0px;
+    }
+
+    /* currency exchnage individual end here */
+    /* privacy policy start here */
+    .privacy_title {
+        font-size: 35px;
+        line-height: 20px;
+    }
+
+    .privacy_top_head {
+        font-size: 25px;
+        line-height: 19px;
+    }
+
+    /* privacy policy endhere */
+
+}
